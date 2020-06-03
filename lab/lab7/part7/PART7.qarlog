@@ -1,0 +1,18 @@
+Quartus II Archive log --	E:/altera/13.1/lab/lab5/part7/PART7.qarlog
+
+Archive:	E:/altera/13.1/lab/lab5/part7/PART7.qar
+Date:		Wed Dec 04 23:15:49 2019
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/lab5/part7/LAB7.qpf
+E:/altera/13.1/lab/lab5/part7/LAB7.qsf
+E:/altera/13.1/lab/lab5/part7/db/LAB7.cmp.hdb
+E:/altera/13.1/lab/lab5/part7/db/LAB7.db_info
+E:/altera/13.1/lab/lab5/part7/incremental_db/compiled_partitions/LAB7.db_info
+E:/altera/13.1/lab/lab5/part7/part7.v
+e:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

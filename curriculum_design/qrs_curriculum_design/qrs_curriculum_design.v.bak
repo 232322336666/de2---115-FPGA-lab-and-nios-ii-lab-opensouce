@@ -1,0 +1,21 @@
+module qrs_curriculum_design(
+input sys_clk,
+input sys_rst_n,
+inout IIC_SDA,
+output IIC_SCL
+);
+
+    system_qsy u0 (
+        .clk_clk          (<connected-to-clk_clk>),          //        clk.clk
+        .reset_reset_n    (<connected-to-reset_reset_n>),    //      reset.reset_n
+        .iic_data_export  (<connected-to-iic_data_export>),  //   iic_data.export
+        .iic_sda_in_port  (<connected-to-iic_sda_in_port>),  //    iic_sda.in_port
+        .iic_sda_out_port (<connected-to-iic_sda_out_port>), //           .out_port
+        .iic_go_export    (<connected-to-iic_go_export>),    //     iic_go.export
+        .epcs_flash_dclk  (<connected-to-epcs_flash_dclk>),  // epcs_flash.dclk
+        .epcs_flash_sce   (<connected-to-epcs_flash_sce>),   //           .sce
+        .epcs_flash_sdo   (<connected-to-epcs_flash_sdo>),   //           .sdo
+        .epcs_flash_data0 (<connected-to-epcs_flash_data0>)  //           .data0
+    );
+	 
+endmodule

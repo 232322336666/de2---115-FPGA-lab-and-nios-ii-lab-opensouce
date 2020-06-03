@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="ina[7]" source="Pin Planner" >
+		</pin>
+		<pin name="ina[6]" source="Pin Planner" >
+		</pin>
+		<pin name="ina[5]" source="Pin Planner" >
+		</pin>
+		<pin name="ina[4]" source="Pin Planner" >
+		</pin>
+		<pin name="ina[3]" source="Pin Planner" >
+		</pin>
+		<pin name="ina[2]" source="Pin Planner" >
+		</pin>
+		<pin name="ina[1]" source="Pin Planner" >
+		</pin>
+		<pin name="ina[0]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[7]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[6]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[5]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[4]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[3]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[2]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[1]" source="Pin Planner" >
+		</pin>
+		<pin name="inb[0]" source="Pin Planner" >
+		</pin>
+		<pin name="reset" source="Pin Planner" >
+		</pin>
+		<pin name="sum[7]" source="Pin Planner" >
+		</pin>
+		<pin name="overflow" source="Pin Planner" >
+		</pin>
+		<pin name="sum[6]" source="Pin Planner" >
+		</pin>
+		<pin name="sum[5]" source="Pin Planner" >
+		</pin>
+		<pin name="sum[4]" source="Pin Planner" >
+		</pin>
+		<pin name="sum[3]" source="Pin Planner" >
+		</pin>
+		<pin name="sum[2]" source="Pin Planner" >
+		</pin>
+		<pin name="sum[1]" source="Pin Planner" >
+		</pin>
+		<pin name="sum[0]" source="Pin Planner" >
+		</pin>
+		<pin name="sumH[6]" source="Pin Planner" >
+		</pin>
+		<pin name="sumH[5]" source="Pin Planner" >
+		</pin>
+		<pin name="sumH[4]" source="Pin Planner" >
+		</pin>
+		<pin name="sumH[3]" source="Pin Planner" >
+		</pin>
+		<pin name="sumH[2]" source="Pin Planner" >
+		</pin>
+		<pin name="sumH[1]" source="Pin Planner" >
+		</pin>
+		<pin name="sumH[0]" source="Pin Planner" >
+		</pin>
+		<pin name="sumL[6]" source="Pin Planner" >
+		</pin>
+		<pin name="sumL[5]" source="Pin Planner" >
+		</pin>
+		<pin name="sumL[4]" source="Pin Planner" >
+		</pin>
+		<pin name="sumL[3]" source="Pin Planner" >
+		</pin>
+		<pin name="sumL[2]" source="Pin Planner" >
+		</pin>
+		<pin name="sumL[1]" source="Pin Planner" >
+		</pin>
+		<pin name="sumL[0]" source="Pin Planner" >
+		</pin>
+		<pin name="aH[6]" source="Pin Planner" >
+		</pin>
+		<pin name="aH[5]" source="Pin Planner" >
+		</pin>
+		<pin name="aH[4]" source="Pin Planner" >
+		</pin>
+		<pin name="aH[3]" source="Pin Planner" >
+		</pin>
+		<pin name="aH[2]" source="Pin Planner" >
+		</pin>
+		<pin name="aH[1]" source="Pin Planner" >
+		</pin>
+		<pin name="aH[0]" source="Pin Planner" >
+		</pin>
+		<pin name="aL[6]" source="Pin Planner" >
+		</pin>
+		<pin name="aL[5]" source="Pin Planner" >
+		</pin>
+		<pin name="aL[4]" source="Pin Planner" >
+		</pin>
+		<pin name="aL[3]" source="Pin Planner" >
+		</pin>
+		<pin name="aL[2]" source="Pin Planner" >
+		</pin>
+		<pin name="aL[1]" source="Pin Planner" >
+		</pin>
+		<pin name="aL[0]" source="Pin Planner" >
+		</pin>
+		<pin name="bH[6]" source="Pin Planner" >
+		</pin>
+		<pin name="bH[5]" source="Pin Planner" >
+		</pin>
+		<pin name="bH[4]" source="Pin Planner" >
+		</pin>
+		<pin name="bH[3]" source="Pin Planner" >
+		</pin>
+		<pin name="bH[2]" source="Pin Planner" >
+		</pin>
+		<pin name="bH[1]" source="Pin Planner" >
+		</pin>
+		<pin name="bH[0]" source="Pin Planner" >
+		</pin>
+		<pin name="bL[6]" source="Pin Planner" >
+		</pin>
+		<pin name="bL[5]" source="Pin Planner" >
+		</pin>
+		<pin name="bL[4]" source="Pin Planner" >
+		</pin>
+		<pin name="bL[3]" source="Pin Planner" >
+		</pin>
+		<pin name="bL[2]" source="Pin Planner" >
+		</pin>
+		<pin name="bL[1]" source="Pin Planner" >
+		</pin>
+		<pin name="bL[0]" source="Pin Planner" >
+		</pin>
+		<pin name="clock" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

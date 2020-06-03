@@ -1,0 +1,31 @@
+Quartus II Archive log --	E:/altera/13.1/lab/lab2/lab2/lab2.qarlog
+
+Archive:	E:/altera/13.1/lab/lab2/lab2/lab2.qar
+Date:		Thu Nov 14 00:48:28 2019
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/lab2/lab2/__lab2.auto.qarlog
+E:/altera/13.1/lab/lab2/lab2/circuitA.v
+E:/altera/13.1/lab/lab2/lab2/circuitB.v
+E:/altera/13.1/lab/lab2/lab2/compare.v
+E:/altera/13.1/lab/lab2/lab2/db/lab2.db_info
+E:/altera/13.1/lab/lab2/lab2/decoder.v
+E:/altera/13.1/lab/lab2/lab2/lab2.bdf
+E:/altera/13.1/lab/lab2/lab2/lab2.qarlog
+E:/altera/13.1/lab/lab2/lab2/lab2.qpf
+E:/altera/13.1/lab/lab2/lab2/lab2.qsf
+E:/altera/13.1/lab/lab2/lab2/lab2_part6.v
+E:/altera/13.1/lab/lab2/lab2/lab2_part7.v
+E:/altera/13.1/lab/lab2/lab2/ls47.v
+E:/altera/13.1/lab/lab2/lab2/multi_plexer.v
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.archive.rpt
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.flow.rpt
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.map.rpt
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.map.summary
+E:/altera/13.1/lab/lab2/lab2/part5.v
+E:/altera/13.1/lab/lab2/lab2/test.v
+E:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+e:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 22 files to archive =======
+

@@ -1,0 +1,31 @@
+Quartus II Archive log --	E:/altera/13.1/lab/lab4/lab6_24/lab6_part24.qarlog
+
+Archive:	E:/altera/13.1/lab/lab4/lab6_24/lab6_part24.qar
+Date:		Wed Nov 27 22:45:56 2019
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/lab4/lab6_24/addern.v
+E:/altera/13.1/lab/lab4/lab6_24/addersubtractor.v
+E:/altera/13.1/lab/lab4/lab6_24/db/full_adder.cmp.hdb
+E:/altera/13.1/lab/lab4/lab6_24/db/full_adder.db_info
+E:/altera/13.1/lab/lab4/lab6_24/full_adder.qpf
+E:/altera/13.1/lab/lab4/lab6_24/full_adder.qsf
+E:/altera/13.1/lab/lab4/lab6_24/full_adder.sdc
+E:/altera/13.1/lab/lab4/lab6_24/full_adder_assignment_defaults.qdf
+E:/altera/13.1/lab/lab4/lab6_24/incremental_db/compiled_partitions/full_adder.db_info
+E:/altera/13.1/lab/lab4/lab6_24/output_files/Waveform.vwf
+E:/altera/13.1/lab/lab4/lab6_24/part2_another.v
+E:/altera/13.1/lab/lab4/lab6_24/part4_add.bsf
+E:/altera/13.1/lab/lab4/lab6_24/part4_add.inc
+E:/altera/13.1/lab/lab4/lab6_24/part4_add.qip
+E:/altera/13.1/lab/lab4/lab6_24/part4_add.v
+E:/altera/13.1/lab/lab4/lab6_24/part4_add_bb.v
+E:/altera/13.1/lab/lab4/lab6_24/part4_add_inst.v
+E:/altera/13.1/lab/lab4/lab6_24/part4_add_syn.v
+E:/altera/13.1/lab/lab4/lab6_24/part4_another.v
+E:/altera/13.1/lab/lab4/lab6_24/seg7_lut.v
+	======= Total: 20 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

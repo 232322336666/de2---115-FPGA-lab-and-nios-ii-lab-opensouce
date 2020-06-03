@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\workSpace\lab6_24\simulation\qsim
+vpart2
+Z1 I1W82@c?gH0cn8>3jMi:Ez2
+Z2 V[o5klA43^UOfj2]LA=PV82
+Z3 dD:\altera\workSpace\lab6_24\simulation\qsim
+Z4 w1574688917
+Z5 8full_adder.vo
+Z6 Ffull_adder.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|full_adder.vo|
+Z9 o-work work -O0
+Z10 !s100 [c^92@JdbM[YYE^h7XWOm2
+Z11 !s108 1574688918.976000
+Z12 !s107 full_adder.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vpart2_another
+Z13 I>3UPCV_LJ<S5EVo:c2^K@2
+Z14 V?04=AiXeoY33<OgLHhF600
+R3
+Z15 w1574843581
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z16 !s100 fZ4m8f83WlLUVWX]9NYG;0
+!s85 0
+Z17 !s108 1574843586.808000
+R12
+!s101 -O0
+vpart2_another_vlg_check_tst
+!i10b 1
+!s100 bO`@XkZKZ`dDMH9Y^SAd<1
+IA43I5iUDUAe[JizPAbJAJ3
+VE8hb7;JQZ22Ug]W7J^ni[2
+R3
+Z18 w1574843578
+Z19 8Waveform.vwf.vt
+Z20 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z21 !s108 1574843587.195000
+Z22 !s107 Waveform.vwf.vt|
+Z23 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vpart2_another_vlg_sample_tst
+!i10b 1
+!s100 KTzaB=:PL6iI^<RLWFd]:0
+IT1WKMPg7?gFj>9c@IS]fJ3
+V3H4BiITiC_X<BOhe4:bM13
+R3
+R18
+R19
+R20
+L0 29
+R7
+r1
+!s85 0
+31
+R21
+R22
+R23
+!s101 -O0
+R9
+vpart2_another_vlg_vec_tst
+!i10b 1
+!s100 miPZLhZj>`3<CNim^BRz83
+I7PJ;9M2[Zc`W99_aE<Y4z0
+VD>>UU4J9QMCnZ[AD:AaRT2
+R3
+R18
+R19
+R20
+L0 314
+R7
+r1
+!s85 0
+31
+R21
+R22
+R23
+!s101 -O0
+R9
+vpart2_vlg_check_tst
+Z24 !s100 lQ83H?4W[=P3lj2Egzd2Z2
+Z25 I6YV`f72`2z6Fbk7<QY[iR2
+Z26 VTnC1YfJfPEI2X4ECQlX[k0
+R3
+Z27 w1574688914
+R19
+R20
+L0 65
+R7
+r1
+31
+Z28 !s108 1574688919.424000
+Z29 !s107 Waveform.vwf.vt|
+R23
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vpart2_vlg_sample_tst
+Z30 !s100 A;f59cYaK[lnkR@Bom8RX3
+Z31 IEY>DU_DP5f6^J=Gz<BFa>0
+Z32 VQ_0WR7DB^>fQ?Hjj?oJOf2
+R3
+R27
+R19
+R20
+L0 29
+R7
+r1
+31
+R28
+R29
+R23
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vpart2_vlg_vec_tst
+Z33 !s100 `Ek;W5oNKo`]83=PZ=YIN3
+Z34 I6d0<B5^6H:a]:foTk2d?R1
+Z35 VifI:LfULZ:6Nce^B2GIZ]3
+R3
+R27
+R19
+R20
+Z36 L0 342
+R7
+r1
+31
+R28
+R29
+R23
+R9
+!i10b 1
+!s85 0
+!s101 -O0

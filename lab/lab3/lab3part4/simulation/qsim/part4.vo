@@ -1,0 +1,242 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Full Version"
+
+// DATE "11/20/2019 12:52:36"
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module part4 (
+	clk,
+	D,
+	Q1,
+	Q2,
+	Q3);
+input 	clk;
+input 	D;
+output 	Q1;
+output 	Q2;
+output 	Q3;
+
+// Design Ports Information
+// Q1	=>  Location: PIN_Y7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Q2	=>  Location: PIN_W8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// Q3	=>  Location: PIN_W7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// D	=>  Location: PIN_Y5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clk	=>  Location: PIN_J1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Q1~output_o ;
+wire \Q2~output_o ;
+wire \Q3~output_o ;
+wire \D~input_o ;
+wire \clk~input_o ;
+wire \clk~inputclkctrl_outclk ;
+wire \p1|q~combout ;
+wire \p2|q~feeder_combout ;
+wire \p2|q~q ;
+wire \p3|q~feeder_combout ;
+wire \p3|q~q ;
+
+
+// Location: IOOBUF_X0_Y11_N23
+cycloneive_io_obuf \Q1~output (
+	.i(\p1|q~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q1~output .bus_hold = "false";
+defparam \Q1~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X0_Y11_N16
+cycloneive_io_obuf \Q2~output (
+	.i(\p2|q~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q2~output .bus_hold = "false";
+defparam \Q2~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X0_Y12_N23
+cycloneive_io_obuf \Q3~output (
+	.i(\p3|q~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\Q3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \Q3~output .bus_hold = "false";
+defparam \Q3~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y12_N15
+cycloneive_io_ibuf \D~input (
+	.i(D),
+	.ibar(gnd),
+	.o(\D~input_o ));
+// synopsys translate_off
+defparam \D~input .bus_hold = "false";
+defparam \D~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y36_N8
+cycloneive_io_ibuf \clk~input (
+	.i(clk),
+	.ibar(gnd),
+	.o(\clk~input_o ));
+// synopsys translate_off
+defparam \clk~input .bus_hold = "false";
+defparam \clk~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: CLKCTRL_G2
+cycloneive_clkctrl \clk~inputclkctrl (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\clk~input_o }),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\clk~inputclkctrl_outclk ));
+// synopsys translate_off
+defparam \clk~inputclkctrl .clock_type = "global clock";
+defparam \clk~inputclkctrl .ena_register_mode = "none";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y12_N28
+cycloneive_lcell_comb \p1|q (
+// Equation(s):
+// \p1|q~combout  = (GLOBAL(\clk~inputclkctrl_outclk ) & (\D~input_o )) # (!GLOBAL(\clk~inputclkctrl_outclk ) & ((\p1|q~combout )))
+
+	.dataa(gnd),
+	.datab(\D~input_o ),
+	.datac(\clk~inputclkctrl_outclk ),
+	.datad(\p1|q~combout ),
+	.cin(gnd),
+	.combout(\p1|q~combout ),
+	.cout());
+// synopsys translate_off
+defparam \p1|q .lut_mask = 16'hCFC0;
+defparam \p1|q .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y12_N8
+cycloneive_lcell_comb \p2|q~feeder (
+// Equation(s):
+// \p2|q~feeder_combout  = \D~input_o 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\D~input_o ),
+	.cin(gnd),
+	.combout(\p2|q~feeder_combout ),
+	.cout());
+// synopsys translate_off
+defparam \p2|q~feeder .lut_mask = 16'hFF00;
+defparam \p2|q~feeder .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X1_Y12_N9
+dffeas \p2|q (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\p2|q~feeder_combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\p2|q~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \p2|q .is_wysiwyg = "true";
+defparam \p2|q .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y12_N2
+cycloneive_lcell_comb \p3|q~feeder (
+// Equation(s):
+// \p3|q~feeder_combout  = \D~input_o 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\D~input_o ),
+	.cin(gnd),
+	.combout(\p3|q~feeder_combout ),
+	.cout());
+// synopsys translate_off
+defparam \p3|q~feeder .lut_mask = 16'hFF00;
+defparam \p3|q~feeder .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X1_Y12_N3
+dffeas \p3|q (
+	.clk(!\clk~inputclkctrl_outclk ),
+	.d(\p3|q~feeder_combout ),
+	.asdata(vcc),
+	.clrn(vcc),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\p3|q~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \p3|q .is_wysiwyg = "true";
+defparam \p3|q .power_up = "low";
+// synopsys translate_on
+
+assign Q1 = \Q1~output_o ;
+
+assign Q2 = \Q2~output_o ;
+
+assign Q3 = \Q3~output_o ;
+
+endmodule

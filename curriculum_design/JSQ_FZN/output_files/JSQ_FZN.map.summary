@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Dec 20 20:47:14 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : JSQ_FZN
+Top-level Entity Name : JSQ_FZN_top
+Family : Cyclone IV E
+Total logic elements : 562
+    Total combinational functions : 530
+    Dedicated logic registers : 34
+Total registers : 34
+Total pins : 83
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 0

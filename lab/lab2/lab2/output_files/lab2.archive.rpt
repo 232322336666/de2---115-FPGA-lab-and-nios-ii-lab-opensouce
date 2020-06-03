@@ -1,0 +1,98 @@
+Archive Project report for lab2
+Thu Nov 14 00:48:28 2019
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Nov 14 00:48:28 2019 ;
+; Revision Name          ; lab2                                  ;
+; Top-level Entity Name  ; lab2                                  ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Critical Warning: Analysis & Elaboration was not run successfully
+    Critical Warning: The 'Automatically detected source files' file subset will attempt to guess which files are needed. The archive file will likely be larger than required and may still be incomplete.
+Warning (225010): Analysis was not performed on the current project. The Quartus II software may not be able to automatically locate all project files.
+Info: Parsing: lab2.bdf
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'E:/altera/13.1/lab/lab2/lab2/lab2.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lab2.archive.rpt'
+Error (23031): Evaluation of Tcl script e:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl unsuccessful
+Error: Quartus II 64-Bit Shell was unsuccessful. 4 errors, 4 warnings
+    Error: Peak virtual memory: 4492 megabytes
+    Error: Processing ended: Thu Nov 14 00:48:28 2019
+    Error: Elapsed time: 00:00:05
+    Error: Total CPU time (on all processors): 00:00:04
+
+
++------------------------------------------------------+
+; Files Archived                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; __lab2.auto.qarlog                                   ;
+; circuitA.v                                           ;
+; circuitB.v                                           ;
+; compare.v                                            ;
+; db/lab2.db_info                                      ;
+; decoder.v                                            ;
+; E:/altera/13.1/quartus/bin64/assignment_defaults.qdf ;
+; e:/altera/13.1/quartus/bin64/assignment_defaults.qdf ;
+; lab2.bdf                                             ;
+; lab2.qarlog                                          ;
+; lab2.qpf                                             ;
+; lab2.qsf                                             ;
+; lab2_part6.v                                         ;
+; lab2_part7.v                                         ;
+; ls47.v                                               ;
+; multi_plexer.v                                       ;
+; output_files/lab2.archive.rpt                        ;
+; output_files/lab2.flow.rpt                           ;
+; output_files/lab2.map.rpt                            ;
+; output_files/lab2.map.summary                        ;
+; part5.v                                              ;
+; test.v                                               ;
++------------------------------------------------------+
+
+

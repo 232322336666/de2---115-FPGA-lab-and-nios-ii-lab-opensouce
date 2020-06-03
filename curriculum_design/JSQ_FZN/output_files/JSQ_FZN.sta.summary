@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'KEY[0]'
+Slack : -3.769
+TNS   : -3.769
+
+Type  : Slow 1200mV 85C Model Setup 'KEY[2]'
+Slack : -2.187
+TNS   : -100.014
+
+Type  : Slow 1200mV 85C Model Setup 'calculate:u1|state[0]'
+Slack : -0.392
+TNS   : -0.785
+
+Type  : Slow 1200mV 85C Model Setup 'KEY[1]'
+Slack : -0.282
+TNS   : -0.540
+
+Type  : Slow 1200mV 85C Model Hold 'calculate:u1|state[0]'
+Slack : -2.519
+TNS   : -3.472
+
+Type  : Slow 1200mV 85C Model Hold 'KEY[1]'
+Slack : -1.106
+TNS   : -2.148
+
+Type  : Slow 1200mV 85C Model Hold 'KEY[2]'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'KEY[0]'
+Slack : 2.293
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'KEY[2]'
+Slack : -0.239
+TNS   : -8.290
+
+Type  : Slow 1200mV 85C Model Recovery 'KEY[1]'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'KEY[1]'
+Slack : -0.220
+TNS   : -0.440
+
+Type  : Slow 1200mV 85C Model Removal 'KEY[2]'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[2]'
+Slack : -3.000
+TNS   : -89.120
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[1]'
+Slack : -3.000
+TNS   : -5.570
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'calculate:u1|state[0]'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'KEY[0]'
+Slack : -3.470
+TNS   : -3.470
+
+Type  : Slow 1200mV 0C Model Setup 'KEY[2]'
+Slack : -1.890
+TNS   : -86.482
+
+Type  : Slow 1200mV 0C Model Setup 'calculate:u1|state[0]'
+Slack : -0.364
+TNS   : -0.710
+
+Type  : Slow 1200mV 0C Model Setup 'KEY[1]'
+Slack : -0.158
+TNS   : -0.305
+
+Type  : Slow 1200mV 0C Model Hold 'calculate:u1|state[0]'
+Slack : -2.185
+TNS   : -2.857
+
+Type  : Slow 1200mV 0C Model Hold 'KEY[1]'
+Slack : -1.026
+TNS   : -1.993
+
+Type  : Slow 1200mV 0C Model Hold 'KEY[2]'
+Slack : 0.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'KEY[0]'
+Slack : 2.189
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'KEY[2]'
+Slack : -0.128
+TNS   : -2.394
+
+Type  : Slow 1200mV 0C Model Recovery 'KEY[1]'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'KEY[1]'
+Slack : -0.211
+TNS   : -0.422
+
+Type  : Slow 1200mV 0C Model Removal 'KEY[2]'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[2]'
+Slack : -3.000
+TNS   : -89.120
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -3.000
+TNS   : -5.570
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'calculate:u1|state[0]'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'KEY[2]'
+Slack : -1.241
+TNS   : -57.469
+
+Type  : Fast 1200mV 0C Model Setup 'KEY[0]'
+Slack : -1.127
+TNS   : -1.127
+
+Type  : Fast 1200mV 0C Model Setup 'calculate:u1|state[0]'
+Slack : -0.146
+TNS   : -0.247
+
+Type  : Fast 1200mV 0C Model Setup 'KEY[1]'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'calculate:u1|state[0]'
+Slack : -1.472
+TNS   : -2.054
+
+Type  : Fast 1200mV 0C Model Hold 'KEY[1]'
+Slack : -0.891
+TNS   : -1.722
+
+Type  : Fast 1200mV 0C Model Hold 'KEY[2]'
+Slack : 0.040
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'KEY[0]'
+Slack : 0.907
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'KEY[2]'
+Slack : -0.292
+TNS   : -12.588
+
+Type  : Fast 1200mV 0C Model Recovery 'KEY[1]'
+Slack : 0.833
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'KEY[1]'
+Slack : -0.128
+TNS   : -0.256
+
+Type  : Fast 1200mV 0C Model Removal 'KEY[2]'
+Slack : -0.023
+TNS   : -0.092
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[2]'
+Slack : -3.000
+TNS   : -56.061
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[1]'
+Slack : -3.000
+TNS   : -5.416
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'calculate:u1|state[0]'
+Slack : 0.434
+TNS   : 0.000
+
+------------------------------------------------------------

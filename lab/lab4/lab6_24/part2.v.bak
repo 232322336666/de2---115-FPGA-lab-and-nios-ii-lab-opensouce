@@ -1,0 +1,16 @@
+module part2(input [8:1]ina, inb,input mode ,
+output [8:1]sum,output overflow );
+//mode=1,sum=ina-inb;mode=0,sum=ina+inb
+wire [8:1]A,B；
+wire clock,Cout,cout7;
+always @( posedge clock)
+begin 
+A<=ina;B<=inb;
+if(mode=1'b1)
+B<=~B;
+
+full_adder8 add8(A,B,mode,sum,Cout,cout7);
+overflow<=cout7^Cout;
+end
+endmodule 
+

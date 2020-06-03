@@ -1,0 +1,25 @@
+|lab3_part3
+d => d.IN1
+clk => clk.IN1
+q << part2:slave.port2
+qn << part2:slave.port3
+
+
+|lab3_part3|part2:master
+Clk => R_g.IN0
+Clk => S_g.IN0
+S => S_g.IN1
+S => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_part3|part2:slave
+Clk => R_g.IN0
+Clk => S_g.IN0
+S => S_g.IN1
+S => R_g.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qb.DB_MAX_OUTPUT_PORT_TYPE
+
+

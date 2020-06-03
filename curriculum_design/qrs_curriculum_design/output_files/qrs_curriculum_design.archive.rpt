@@ -1,0 +1,139 @@
+Archive Project report for qrs_curriculum_design
+Sun Apr 26 19:02:22 2020
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun Apr 26 19:02:22 2020 ;
+; Revision Name          ; qrs_curriculum_design                 ;
+; Top-level Entity Name  ; qrs_curriculum_design                 ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'E:/altera/13.1/lab/qrs_curriculum_design/qrs_curriculum_design.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'qrs_curriculum_design.archive.rpt'
+Info (23030): Evaluation of Tcl script e:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4503 megabytes
+    Info: Processing ended: Sun Apr 26 19:02:22 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------------------------------------------------------------------------+
+; Files Archived                                                                   ;
++----------------------------------------------------------------------------------+
+; File Name                                                                        ;
++----------------------------------------------------------------------------------+
+; db/qrs_curriculum_design.cmp.hdb                                                 ;
+; db/qrs_curriculum_design.db_info                                                 ;
+; e:/altera/13.1/quartus/bin64/assignment_defaults.qdf                             ;
+; hardware/synthesis/../../system_qsy.cmp                                          ;
+; hardware/synthesis/../../system_qsy.qsys                                         ;
+; hardware/synthesis/../../system_qsy.sopcinfo                                     ;
+; hardware/synthesis/submodules/altera_avalon_sc_fifo.v                            ;
+; hardware/synthesis/submodules/altera_avalon_st_pipeline_base.v                   ;
+; hardware/synthesis/submodules/altera_merlin_arbitrator.sv                        ;
+; hardware/synthesis/submodules/altera_merlin_burst_uncompressor.sv                ;
+; hardware/synthesis/submodules/altera_merlin_master_agent.sv                      ;
+; hardware/synthesis/submodules/altera_merlin_master_translator.sv                 ;
+; hardware/synthesis/submodules/altera_merlin_reorder_memory.sv                    ;
+; hardware/synthesis/submodules/altera_merlin_slave_agent.sv                       ;
+; hardware/synthesis/submodules/altera_merlin_slave_translator.sv                  ;
+; hardware/synthesis/submodules/altera_merlin_traffic_limiter.sv                   ;
+; hardware/synthesis/submodules/altera_reset_controller.sdc                        ;
+; hardware/synthesis/submodules/altera_reset_controller.v                          ;
+; hardware/synthesis/submodules/altera_reset_synchronizer.v                        ;
+; hardware/synthesis/submodules/system_qsy_IIC_DATA.v                              ;
+; hardware/synthesis/submodules/system_qsy_IIC_GO.v                                ;
+; hardware/synthesis/submodules/system_qsy_irq_mapper.sv                           ;
+; hardware/synthesis/submodules/system_qsy_jtag_uart.v                             ;
+; hardware/synthesis/submodules/system_qsy_KEY1.v                                  ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0.v                     ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_addr_router.sv        ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_addr_router_001.sv    ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_demux.sv     ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_demux_001.sv ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_mux.sv       ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_mux_003.sv   ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_id_router.sv          ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_id_router_003.sv      ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_demux.sv     ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_demux_003.sv ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_mux.sv       ;
+; hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_mux_001.sv   ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys.ocp                          ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys.sdc                          ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys.v                            ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_bht_ram.mif                  ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_dc_tag_ram.mif               ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_ic_tag_ram.mif               ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_jtag_debug_module_sysclk.v   ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_jtag_debug_module_tck.v      ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_jtag_debug_module_wrapper.v  ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_mult_cell.v                  ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_oci_test_bench.v             ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_ociram_default_contents.mif  ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_rf_ram_a.mif                 ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_rf_ram_b.mif                 ;
+; hardware/synthesis/submodules/system_qsy_nios2_qsys_test_bench.v                 ;
+; hardware/synthesis/submodules/system_qsy_onchip_memory_ram.hex                   ;
+; hardware/synthesis/submodules/system_qsy_onchip_memory_ram.v                     ;
+; hardware/synthesis/submodules/system_qsy_onchip_memory_rom.hex                   ;
+; hardware/synthesis/submodules/system_qsy_onchip_memory_rom.v                     ;
+; hardware/synthesis/submodules/system_qsy_sysid_qsys.v                            ;
+; hardware/synthesis/system_qsy.debuginfo                                          ;
+; hardware/synthesis/system_qsy.qip                                                ;
+; hardware/synthesis/system_qsy.regmap                                             ;
+; hardware/synthesis/system_qsy.v                                                  ;
+; I2C_Config.v                                                                     ;
+; iic_controller.v                                                                 ;
+; incremental_db/compiled_partitions/qrs_curriculum_design.db_info                 ;
+; qrs_curriculum_design.qpf                                                        ;
+; qrs_curriculum_design.qsf                                                        ;
+; qrs_curriculum_design.v                                                          ;
++----------------------------------------------------------------------------------+
+
+

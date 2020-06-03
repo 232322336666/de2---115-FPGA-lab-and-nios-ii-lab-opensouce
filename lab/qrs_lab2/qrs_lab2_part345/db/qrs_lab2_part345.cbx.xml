@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="qrs_lab2_part345">
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_jtag_uart_0:jtag_uart_0|system_qsys_jtag_uart_0_scfifo_w:the_system_qsys_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|lpm_add_sub:Add24" CBX_FILE_NAME="add_sub_qvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_bht_module:system_qsys_nios2_qsys_0_bht|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_vth1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_dc_data_module:system_qsys_nios2_qsys_0_dc_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_kpc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_dc_tag_module:system_qsys_nios2_qsys_0_dc_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_rfh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_dc_victim_module:system_qsys_nios2_qsys_0_dc_victim|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_r3d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_mult_cell:the_system_qsys_nios2_qsys_0_mult_cell|altera_mult_add:the_altmult_add_part_1" CBX_FILE_NAME="altera_mult_add_q1u2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_register_bank_a_module:system_qsys_nios2_qsys_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_vbh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_jtag_uart_0:jtag_uart_0|system_qsys_jtag_uart_0_scfifo_r:the_system_qsys_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_jr21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_mult_cell:the_system_qsys_nios2_qsys_0_mult_cell|altera_mult_add:the_altmult_add_part_2" CBX_FILE_NAME="altera_mult_add_s1u2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_onchip_ram:onchip_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_v0d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_onchip_rom:onchip_rom|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_m1d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_ic_data_module:system_qsys_nios2_qsys_0_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cjd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_ic_tag_module:system_qsys_nios2_qsys_0_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_6ai1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_mult_cell:the_system_qsys_nios2_qsys_0_mult_cell|altera_mult_add:the_altmult_add_part_2|altera_mult_add_s1u2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_j011.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_nios2_oci:the_system_qsys_nios2_qsys_0_nios2_oci|system_qsys_nios2_qsys_0_nios2_ocimem:the_system_qsys_nios2_qsys_0_nios2_ocimem|system_qsys_nios2_qsys_0_ociram_sp_ram_module:system_qsys_nios2_qsys_0_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_9m91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_register_bank_b_module:system_qsys_nios2_qsys_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_0ch1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qrs_lab2_part345|system_qsys:u0|system_qsys_nios2_qsys_0:nios2_qsys_0|system_qsys_nios2_qsys_0_mult_cell:the_system_qsys_nios2_qsys_0_mult_cell|altera_mult_add:the_altmult_add_part_1|altera_mult_add_q1u2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_jp01.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

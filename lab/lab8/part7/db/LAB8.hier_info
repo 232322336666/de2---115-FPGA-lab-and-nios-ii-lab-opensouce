@@ -1,0 +1,242 @@
+|part7
+CLOCK_50 => count[0].CLK
+CLOCK_50 => count[1].CLK
+CLOCK_50 => count[2].CLK
+CLOCK_50 => count[3].CLK
+CLOCK_50 => count[4].CLK
+CLOCK_50 => count[5].CLK
+CLOCK_50 => count[6].CLK
+CLOCK_50 => count[7].CLK
+CLOCK_50 => count[8].CLK
+CLOCK_50 => count[9].CLK
+CLOCK_50 => count[10].CLK
+CLOCK_50 => count[11].CLK
+CLOCK_50 => count[12].CLK
+CLOCK_50 => count[13].CLK
+CLOCK_50 => count[14].CLK
+CLOCK_50 => count[15].CLK
+CLOCK_50 => count[16].CLK
+CLOCK_50 => count[17].CLK
+CLOCK_50 => count[18].CLK
+CLOCK_50 => count[19].CLK
+CLOCK_50 => count[20].CLK
+CLOCK_50 => count[21].CLK
+CLOCK_50 => count[22].CLK
+CLOCK_50 => count[23].CLK
+CLOCK_50 => count[24].CLK
+CLOCK_50 => count[25].CLK
+KEY[0] => add[0].ACLR
+KEY[0] => add[1].ACLR
+KEY[0] => add[2].ACLR
+KEY[0] => add[3].ACLR
+SRAM_DQ[0] => SRAM_DQ[0].IN1
+SRAM_DQ[1] => SRAM_DQ[1].IN1
+SRAM_DQ[2] => SRAM_DQ[2].IN1
+SRAM_DQ[3] => SRAM_DQ[3].IN1
+SRAM_DQ[4] => SRAM_DQ[4].IN1
+SRAM_DQ[5] => SRAM_DQ[5].IN1
+SRAM_DQ[6] => SRAM_DQ[6].IN1
+SRAM_DQ[7] => SRAM_DQ[7].IN1
+SRAM_DQ[8] => SRAM_DQ[8].IN1
+SRAM_DQ[9] => SRAM_DQ[9].IN1
+SRAM_DQ[10] => SRAM_DQ[10].IN1
+SRAM_DQ[11] => SRAM_DQ[11].IN1
+SRAM_DQ[12] => SRAM_DQ[12].IN1
+SRAM_DQ[13] => SRAM_DQ[13].IN1
+SRAM_DQ[14] => SRAM_DQ[14].IN1
+SRAM_DQ[15] => SRAM_DQ[15].IN1
+SRAM_OE_N <= <GND>
+SRAM_WE_N <= <VCC>
+SRAM_CE_N <= <GND>
+SRAM_LB_N <= <GND>
+SRAM_UB_N <= <GND>
+SRAM_ADDR[0] <= SRAM_ADDR[0].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[1] <= SRAM_ADDR[1].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[2] <= SRAM_ADDR[2].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[3] <= SRAM_ADDR[3].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[4] <= SRAM_ADDR[4].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[5] <= SRAM_ADDR[5].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[6] <= SRAM_ADDR[6].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[7] <= SRAM_ADDR[7].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[8] <= SRAM_ADDR[8].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[9] <= SRAM_ADDR[9].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[10] <= SRAM_ADDR[10].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[11] <= SRAM_ADDR[11].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[12] <= SRAM_ADDR[12].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[13] <= SRAM_ADDR[13].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[14] <= SRAM_ADDR[14].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[15] <= SRAM_ADDR[15].DB_MAX_OUTPUT_PORT_TYPE
+SRAM_ADDR[16] <= <GND>
+SRAM_ADDR[17] <= <GND>
+SRAM_ADDR[18] <= <GND>
+SRAM_ADDR[19] <= <GND>
+HEX7[0] <= decoder_TEST:a.port1
+HEX7[1] <= decoder_TEST:a.port1
+HEX7[2] <= decoder_TEST:a.port1
+HEX7[3] <= decoder_TEST:a.port1
+HEX7[4] <= decoder_TEST:a.port1
+HEX7[5] <= decoder_TEST:a.port1
+HEX7[6] <= decoder_TEST:a.port1
+HEX6[0] <= decoder_TEST:b.port1
+HEX6[1] <= decoder_TEST:b.port1
+HEX6[2] <= decoder_TEST:b.port1
+HEX6[3] <= decoder_TEST:b.port1
+HEX6[4] <= decoder_TEST:b.port1
+HEX6[5] <= decoder_TEST:b.port1
+HEX6[6] <= decoder_TEST:b.port1
+HEX5[0] <= decoder_TEST:c.port1
+HEX5[1] <= decoder_TEST:c.port1
+HEX5[2] <= decoder_TEST:c.port1
+HEX5[3] <= decoder_TEST:c.port1
+HEX5[4] <= decoder_TEST:c.port1
+HEX5[5] <= decoder_TEST:c.port1
+HEX5[6] <= decoder_TEST:c.port1
+HEX4[0] <= decoder_TEST:d.port1
+HEX4[1] <= decoder_TEST:d.port1
+HEX4[2] <= decoder_TEST:d.port1
+HEX4[3] <= decoder_TEST:d.port1
+HEX4[4] <= decoder_TEST:d.port1
+HEX4[5] <= decoder_TEST:d.port1
+HEX4[6] <= decoder_TEST:d.port1
+HEX3[0] <= decoder_TEST:e.port1
+HEX3[1] <= decoder_TEST:e.port1
+HEX3[2] <= decoder_TEST:e.port1
+HEX3[3] <= decoder_TEST:e.port1
+HEX3[4] <= decoder_TEST:e.port1
+HEX3[5] <= decoder_TEST:e.port1
+HEX3[6] <= decoder_TEST:e.port1
+HEX2[0] <= decoder_TEST:f.port1
+HEX2[1] <= decoder_TEST:f.port1
+HEX2[2] <= decoder_TEST:f.port1
+HEX2[3] <= decoder_TEST:f.port1
+HEX2[4] <= decoder_TEST:f.port1
+HEX2[5] <= decoder_TEST:f.port1
+HEX2[6] <= decoder_TEST:f.port1
+HEX1[0] <= decoder_TEST:g.port1
+HEX1[1] <= decoder_TEST:g.port1
+HEX1[2] <= decoder_TEST:g.port1
+HEX1[3] <= decoder_TEST:g.port1
+HEX1[4] <= decoder_TEST:g.port1
+HEX1[5] <= decoder_TEST:g.port1
+HEX1[6] <= decoder_TEST:g.port1
+HEX0[0] <= decoder_TEST:h.port1
+HEX0[1] <= decoder_TEST:h.port1
+HEX0[2] <= decoder_TEST:h.port1
+HEX0[3] <= decoder_TEST:h.port1
+HEX0[4] <= decoder_TEST:h.port1
+HEX0[5] <= decoder_TEST:h.port1
+HEX0[6] <= decoder_TEST:h.port1
+
+
+|part7|decoder_TEST:a
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part7|decoder_TEST:b
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part7|decoder_TEST:c
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part7|decoder_TEST:d
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part7|decoder_TEST:e
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part7|decoder_TEST:f
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part7|decoder_TEST:g
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part7|decoder_TEST:h
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

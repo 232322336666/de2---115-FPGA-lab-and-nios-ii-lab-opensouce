@@ -1,0 +1,32 @@
+Quartus II Archive log --	E:/altera/13.1/lab/lab2/lab2/__lab2.auto.qarlog
+
+Archive:	E:/altera/13.1/lab/lab2/lab2/__lab2.auto.qar
+Date:		Thu Nov 14 00:48:28 2019
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/lab2/lab2/db/lab2.cbx.xml
+E:/altera/13.1/lab/lab2/lab2/db/lab2.qpf
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.archive.rpt
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.flow.rpt
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.map.rpt
+E:/altera/13.1/lab/lab2/lab2/output_files/lab2.map.summary
+__lab2.auto.qarlog
+circuitA.v
+circuitB.v
+compare.v
+decoder.v
+e:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+lab2.bdf
+lab2.qarlog
+lab2.qsf
+lab2_part6.v
+lab2_part7.v
+ls47.v
+multi_plexer.v
+part5.v
+test.v
+	======= Total: 21 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

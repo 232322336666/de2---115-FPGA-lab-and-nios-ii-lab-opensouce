@@ -1,0 +1,78 @@
+Quartus II Archive log --	E:/altera/13.1/lab/qrs_curriculum_design/qrs_curriculum_design.qarlog
+
+Archive:	E:/altera/13.1/lab/qrs_curriculum_design/qrs_curriculum_design.qar
+Date:		Sun Apr 26 19:02:21 2020
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/qrs_curriculum_design/I2C_Config.v
+E:/altera/13.1/lab/qrs_curriculum_design/db/qrs_curriculum_design.cmp.hdb
+E:/altera/13.1/lab/qrs_curriculum_design/db/qrs_curriculum_design.db_info
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_avalon_sc_fifo.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_avalon_st_pipeline_base.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_arbitrator.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_master_agent.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_master_translator.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_reorder_memory.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_slave_agent.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_slave_translator.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_traffic_limiter.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_reset_controller.sdc
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_reset_controller.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_reset_synchronizer.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_IIC_DATA.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_IIC_GO.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_KEY1.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_irq_mapper.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_jtag_uart.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_addr_router.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_addr_router_001.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_demux.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_demux_001.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_mux.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_cmd_xbar_mux_003.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_id_router.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_id_router_003.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_demux.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_demux_003.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_mux.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_mm_interconnect_0_rsp_xbar_mux_001.sv
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys.ocp
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys.sdc
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_bht_ram.mif
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_dc_tag_ram.mif
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_ic_tag_ram.mif
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_jtag_debug_module_sysclk.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_jtag_debug_module_tck.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_jtag_debug_module_wrapper.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_mult_cell.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_oci_test_bench.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_ociram_default_contents.mif
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_rf_ram_a.mif
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_rf_ram_b.mif
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_nios2_qsys_test_bench.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_onchip_memory_ram.hex
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_onchip_memory_ram.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_onchip_memory_rom.hex
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_onchip_memory_rom.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/system_qsy_sysid_qsys.v
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/system_qsy.debuginfo
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/system_qsy.qip
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/system_qsy.regmap
+E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/system_qsy.v
+E:/altera/13.1/lab/qrs_curriculum_design/iic_controller.v
+E:/altera/13.1/lab/qrs_curriculum_design/incremental_db/compiled_partitions/qrs_curriculum_design.db_info
+E:/altera/13.1/lab/qrs_curriculum_design/qrs_curriculum_design.qpf
+E:/altera/13.1/lab/qrs_curriculum_design/qrs_curriculum_design.qsf
+E:/altera/13.1/lab/qrs_curriculum_design/qrs_curriculum_design.v
+E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.cmp
+E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.qsys
+E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.sopcinfo
+e:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 67 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

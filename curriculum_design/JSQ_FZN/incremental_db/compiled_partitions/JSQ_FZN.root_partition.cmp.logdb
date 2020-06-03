@@ -1,0 +1,3 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component|mult_kfn:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component|mult_kfn:auto_generated|mac_mult1,

@@ -1,0 +1,18 @@
+module decoder
+				(input[2:0] C,
+				output reg[6:0] HEX);	
+	always @(C)
+	begin
+		case(C)
+		3'b000 : HEX = 7'b0001001;
+		3'b001 : HEX = 7'b0000110;
+		3'b010 : HEX = 7'b1000111;
+		3'b011 : HEX = 7'b1000000;
+		3'b100 : HEX = 7'b1111111;
+		3'b101 : HEX = 7'b1111111;
+		3'b110 : HEX = 7'b1111111;
+		3'b111 : HEX = 7'b1111111;
+		default: HEX = 7'b1111111;
+		endcase
+	end
+endmodule

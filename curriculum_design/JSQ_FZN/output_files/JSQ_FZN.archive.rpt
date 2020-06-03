@@ -1,0 +1,98 @@
+Archive Project report for JSQ_FZN
+Fri Dec 20 20:55:29 2019
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Fri Dec 20 20:55:29 2019 ;
+; Revision Name          ; JSQ_FZN                               ;
+; Top-level Entity Name  ; JSQ_FZN_top                           ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'E:/altera/13.1/lab/JSQ_FZN/output_files/JSQ_FZN.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'JSQ_FZN.archive.rpt'
+Info (23030): Evaluation of Tcl script e:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4502 megabytes
+    Info: Processing ended: Fri Dec 20 20:55:29 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++------------------------------------------------------+
+; Files Archived                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; calculate.v                                          ;
+; db/JSQ_FZN.cmp.hdb                                   ;
+; db/JSQ_FZN.db_info                                   ;
+; e:/altera/13.1/quartus/bin64/assignment_defaults.qdf ;
+; incremental_db/compiled_partitions/JSQ_FZN.db_info   ;
+; JSQ_FZN.qpf                                          ;
+; JSQ_FZN.qsf                                          ;
+; JSQ_FZN_top.v                                        ;
+; myadd.qip                                            ;
+; myadd.v                                              ;
+; myadd_bb.v                                           ;
+; mydivi.qip                                           ;
+; mydivi.v                                             ;
+; mydivi_bb.v                                          ;
+; mymult.qip                                           ;
+; mymult.v                                             ;
+; mymult_bb.v                                          ;
+; operator.v                                           ;
+; output_files/Waveform.vwf                            ;
+; pll_fzn.ppf                                          ;
+; pll_fzn.qip                                          ;
+; pll_fzn.v                                            ;
+; pll_fzn_bb.v                                         ;
+; register.v                                           ;
+; SEG_HEX.v                                            ;
+; switch.v                                             ;
++------------------------------------------------------+
+
+

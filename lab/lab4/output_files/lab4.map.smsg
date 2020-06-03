@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at part8.v(144): object "m1" differs only in case from object "M1" in the same scope
+Info (10281): Verilog HDL Declaration information at part8.v(145): object "m2" differs only in case from object "M2" in the same scope
+Info (10281): Verilog HDL Declaration information at part8.v(147): object "m3" differs only in case from object "M3" in the same scope
+Info (10281): Verilog HDL Declaration information at part9.v(12): object "m1" differs only in case from object "M1" in the same scope

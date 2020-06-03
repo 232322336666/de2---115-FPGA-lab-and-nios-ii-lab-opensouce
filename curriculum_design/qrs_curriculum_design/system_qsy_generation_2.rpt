@@ -1,0 +1,196 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=E:/altera/13.1/lab/qrs_curriculum_design/ --output-directory=E:/altera/13.1/lab/qrs_curriculum_design/hardware/ --report-file=bsf:E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.qsys
+Progress: Loading qrs_curriculum_design/system_qsy.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.1]
+Progress: Parameterizing module clk
+Progress: Adding onchip_memory_ram [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory_ram
+Progress: Adding onchip_memory_rom [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory_rom
+Progress: Adding nios2_qsys [altera_nios2_qsys 13.1]
+Progress: Parameterizing module nios2_qsys
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 13.1]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding IIC_DATA [altera_avalon_pio 13.1]
+Progress: Parameterizing module IIC_DATA
+Progress: Adding IIC_GO [altera_avalon_pio 13.1]
+Progress: Parameterizing module IIC_GO
+Progress: Adding KEY1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module KEY1
+Progress: Adding KEY0 [altera_avalon_pio 13.1]
+Progress: Parameterizing module KEY0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system_qsy.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: system_qsy.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: system_qsy.KEY1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: system_qsy.KEY0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=E:/altera/13.1/lab/qrs_curriculum_design/ --output-directory=E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/ --file-set=QUARTUS_SYNTH --report-file=html:E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.html --report-file=sopcinfo:E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.sopcinfo --report-file=cmp:E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.cmp --report-file=qip:E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/system_qsy.qip --report-file=svd --report-file=regmap:E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/system_qsy.regmap --report-file=debuginfo:E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/system_qsy.debuginfo --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=E:/altera/13.1/lab/qrs_curriculum_design/system_qsy.qsys --language=VERILOG
+Progress: Loading qrs_curriculum_design/system_qsy.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.1]
+Progress: Parameterizing module clk
+Progress: Adding onchip_memory_ram [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory_ram
+Progress: Adding onchip_memory_rom [altera_avalon_onchip_memory2 13.1]
+Progress: Parameterizing module onchip_memory_rom
+Progress: Adding nios2_qsys [altera_nios2_qsys 13.1]
+Progress: Parameterizing module nios2_qsys
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 13.1]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding IIC_DATA [altera_avalon_pio 13.1]
+Progress: Parameterizing module IIC_DATA
+Progress: Adding IIC_GO [altera_avalon_pio 13.1]
+Progress: Parameterizing module IIC_GO
+Progress: Adding KEY1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module KEY1
+Progress: Adding KEY0 [altera_avalon_pio 13.1]
+Progress: Parameterizing module KEY0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system_qsy.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: system_qsy.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: system_qsy.KEY1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: system_qsy.KEY0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: system_qsy: Generating system_qsy "system_qsy" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 10 modules, 40 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 10 modules, 39 connections
+Info: merlin_translator_transform: After transform: 21 modules, 83 connections
+Info: merlin_domain_transform: After transform: 42 modules, 224 connections
+Info: merlin_router_transform: After transform: 53 modules, 268 connections
+Info: merlin_traffic_limiter_transform: After transform: 55 modules, 278 connections
+Info: merlin_network_to_switch_transform: After transform: 76 modules, 335 connections
+Info: limiter_update_transform: After transform: 76 modules, 337 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 78 modules, 414 connections
+Info: merlin_hierarchy_transform: After transform: 11 modules, 42 connections
+Info: merlin_mm_transform: After transform: 11 modules, 42 connections
+Info: merlin_interrupt_mapper_transform: After transform: 12 modules, 46 connections
+Info: reset_adaptation_transform: After transform: 14 modules, 47 connections
+Info: onchip_memory_ram: Starting RTL generation for module 'system_qsy_onchip_memory_ram'
+Info: onchip_memory_ram:   Generation command is [exec E:/altera/13.1/quartus/bin/perl/bin/perl.exe -I E:/altera/13.1/quartus/bin/perl/lib -I E:/altera/13.1/quartus/sopc_builder/bin/europa -I E:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I E:/altera/13.1/quartus/sopc_builder/bin -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=system_qsy_onchip_memory_ram --dir=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0004_onchip_memory_ram_gen/ --quartus_dir=E:/altera/13.1/quartus --verilog --config=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0004_onchip_memory_ram_gen//system_qsy_onchip_memory_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory_ram: Done RTL generation for module 'system_qsy_onchip_memory_ram'
+Info: onchip_memory_ram: "system_qsy" instantiated altera_avalon_onchip_memory2 "onchip_memory_ram"
+Info: onchip_memory_rom: Starting RTL generation for module 'system_qsy_onchip_memory_rom'
+Info: onchip_memory_rom:   Generation command is [exec E:/altera/13.1/quartus/bin/perl/bin/perl.exe -I E:/altera/13.1/quartus/bin/perl/lib -I E:/altera/13.1/quartus/sopc_builder/bin/europa -I E:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I E:/altera/13.1/quartus/sopc_builder/bin -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=system_qsy_onchip_memory_rom --dir=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0005_onchip_memory_rom_gen/ --quartus_dir=E:/altera/13.1/quartus --verilog --config=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0005_onchip_memory_rom_gen//system_qsy_onchip_memory_rom_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory_rom: Done RTL generation for module 'system_qsy_onchip_memory_rom'
+Info: onchip_memory_rom: "system_qsy" instantiated altera_avalon_onchip_memory2 "onchip_memory_rom"
+Info: nios2_qsys: Starting RTL generation for module 'system_qsy_nios2_qsys'
+Info: nios2_qsys:   Generation command is [exec E:/altera/13.1/quartus/bin/eperlcmd.exe -I E:/altera/13.1/quartus/bin/perl/lib -I E:/altera/13.1/quartus/sopc_builder/bin/europa -I E:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I E:/altera/13.1/quartus/sopc_builder/bin -I E:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I E:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I E:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I E:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- E:/altera/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=system_qsy_nios2_qsys --dir=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0006_nios2_qsys_gen/ --quartus_dir=E:/altera/13.1/quartus --verilog --config=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0006_nios2_qsys_gen//system_qsy_nios2_qsys_processor_configuration.pl  --do_build_sim=0  ]
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*) Starting Nios II generation
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Checking for plaintext license.
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Couldn't query license setup in Quartus directory E:/altera/13.1/quartus
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Plaintext license not found.
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Checking for encrypted license (non-evaluation).
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Couldn't query license setup in Quartus directory E:/altera/13.1/quartus
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)   Creating all objects for CPU
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)     Testbench
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)     Instruction decoding
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)       Instruction fields
+Info: nios2_qsys: # 2020.04.08 19:47:14 (*)       Instruction decodes
+Info: nios2_qsys: # 2020.04.08 19:47:15 (*)       Signals for RTL simulation waveforms
+Info: nios2_qsys: # 2020.04.08 19:47:15 (*)       Instruction controls
+Info: nios2_qsys: # 2020.04.08 19:47:15 (*)     Pipeline frontend
+Info: nios2_qsys: # 2020.04.08 19:47:15 (*)     Pipeline backend
+Info: nios2_qsys: # 2020.04.08 19:47:18 (*)   Generating RTL from CPU objects
+Info: nios2_qsys: # 2020.04.08 19:47:21 (*)   Creating encrypted RTL
+Info: nios2_qsys: # 2020.04.08 19:47:22 (*) Done Nios II generation
+Info: nios2_qsys: Done RTL generation for module 'system_qsy_nios2_qsys'
+Info: nios2_qsys: "system_qsy" instantiated altera_nios2_qsys "nios2_qsys"
+Info: jtag_uart: Starting RTL generation for module 'system_qsy_jtag_uart'
+Info: jtag_uart:   Generation command is [exec E:/altera/13.1/quartus/bin/perl/bin/perl.exe -I E:/altera/13.1/quartus/bin/perl/lib -I E:/altera/13.1/quartus/sopc_builder/bin/europa -I E:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I E:/altera/13.1/quartus/sopc_builder/bin -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=system_qsy_jtag_uart --dir=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0007_jtag_uart_gen/ --quartus_dir=E:/altera/13.1/quartus --verilog --config=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0007_jtag_uart_gen//system_qsy_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'system_qsy_jtag_uart'
+Info: jtag_uart: "system_qsy" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: sysid_qsys: "system_qsy" instantiated altera_avalon_sysid_qsys "sysid_qsys"
+Info: IIC_DATA: Starting RTL generation for module 'system_qsy_IIC_DATA'
+Info: IIC_DATA:   Generation command is [exec E:/altera/13.1/quartus/bin/perl/bin/perl.exe -I E:/altera/13.1/quartus/bin/perl/lib -I E:/altera/13.1/quartus/sopc_builder/bin/europa -I E:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I E:/altera/13.1/quartus/sopc_builder/bin -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=system_qsy_IIC_DATA --dir=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0009_IIC_DATA_gen/ --quartus_dir=E:/altera/13.1/quartus --verilog --config=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0009_IIC_DATA_gen//system_qsy_IIC_DATA_component_configuration.pl  --do_build_sim=0  ]
+Info: IIC_DATA: Done RTL generation for module 'system_qsy_IIC_DATA'
+Info: IIC_DATA: "system_qsy" instantiated altera_avalon_pio "IIC_DATA"
+Info: IIC_GO: Starting RTL generation for module 'system_qsy_IIC_GO'
+Info: IIC_GO:   Generation command is [exec E:/altera/13.1/quartus/bin/perl/bin/perl.exe -I E:/altera/13.1/quartus/bin/perl/lib -I E:/altera/13.1/quartus/sopc_builder/bin/europa -I E:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I E:/altera/13.1/quartus/sopc_builder/bin -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=system_qsy_IIC_GO --dir=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0010_IIC_GO_gen/ --quartus_dir=E:/altera/13.1/quartus --verilog --config=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0010_IIC_GO_gen//system_qsy_IIC_GO_component_configuration.pl  --do_build_sim=0  ]
+Info: IIC_GO: Done RTL generation for module 'system_qsy_IIC_GO'
+Info: IIC_GO: "system_qsy" instantiated altera_avalon_pio "IIC_GO"
+Info: KEY1: Starting RTL generation for module 'system_qsy_KEY1'
+Info: KEY1:   Generation command is [exec E:/altera/13.1/quartus/bin/perl/bin/perl.exe -I E:/altera/13.1/quartus/bin/perl/lib -I E:/altera/13.1/quartus/sopc_builder/bin/europa -I E:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I E:/altera/13.1/quartus/sopc_builder/bin -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=system_qsy_KEY1 --dir=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0011_KEY1_gen/ --quartus_dir=E:/altera/13.1/quartus --verilog --config=C:/Users/lenovo.000/AppData/Local/Temp/alt8360_6734485477628249300.dir/0011_KEY1_gen//system_qsy_KEY1_component_configuration.pl  --do_build_sim=0  ]
+Info: KEY1: Done RTL generation for module 'system_qsy_KEY1'
+Info: KEY1: "system_qsy" instantiated altera_avalon_pio "KEY1"
+Info: pipeline_bridge_swap_transform: After transform: 68 modules, 234 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 68 modules, 234 connections
+Info: mm_interconnect_0: "system_qsy" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_0"
+Info: irq_mapper: "system_qsy" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "system_qsy" instantiated altera_reset_controller "rst_controller"
+Info: nios2_qsys_instruction_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_instruction_master_translator"
+Info: nios2_qsys_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_qsys_jtag_debug_module_translator"
+Info: nios2_qsys_instruction_master_translator_avalon_universal_master_0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_qsys_jtag_debug_module_translator_avalon_universal_slave_0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_qsys_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_qsys_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_qsys_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "mm_interconnect_0" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "mm_interconnect_0" instantiated altera_merlin_router "id_router"
+Info: id_router_003: "mm_interconnect_0" instantiated altera_merlin_router "id_router_003"
+Info: limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "limiter"
+Info: Reusing file E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux_003"
+Info: Reusing file E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file E:/altera/13.1/lab/qrs_curriculum_design/hardware/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: system_qsy: Done "system_qsy" with 30 modules, 52 files, 4404057 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

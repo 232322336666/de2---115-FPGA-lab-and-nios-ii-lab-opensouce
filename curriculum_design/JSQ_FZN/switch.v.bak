@@ -1,0 +1,36 @@
+/**
+  * @brief  Switch one hex date from two.
+  * @param  NULL.
+  * @note   null.
+  * @retval OUTput is the hex.
+ */
+module switch_hex
+				(input EN,
+				 input [15:0] IN1,IN2,
+				 output reg [15:0]Q);
+	always @(EN)
+	begin
+	if(EN)
+		begin Q=IN1;end
+	else
+		begin Q=IN2;end
+	end		 		 
+endmodule
+/**
+  * @brief  Switch one  date from two.
+  * @param  NULL.
+  * @note   null.
+  * @retval OUTput is the one.
+ */
+module switch
+				(input EN,
+				 input IN,
+				 output reg Q1,Q2);
+	always @(EN)
+	begin
+	if(EN)
+		begin Q1=IN;Q2=!IN;end
+	else
+		begin Q1=1'b0;Q2=1'b0; end
+	end		 		 
+endmodule

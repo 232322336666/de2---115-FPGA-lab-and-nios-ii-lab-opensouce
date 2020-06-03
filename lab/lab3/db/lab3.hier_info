@@ -1,0 +1,564 @@
+|lab3
+HEX0[0] <= PART5:inst.HEX0[0]
+HEX0[1] <= PART5:inst.HEX0[1]
+HEX0[2] <= PART5:inst.HEX0[2]
+HEX0[3] <= PART5:inst.HEX0[3]
+HEX0[4] <= PART5:inst.HEX0[4]
+HEX0[5] <= PART5:inst.HEX0[5]
+HEX0[6] <= PART5:inst.HEX0[6]
+KEY0 => PART5:inst.KEY0
+KEY1 => PART5:inst.KEY1
+SW[0] => PART5:inst.SW[0]
+SW[1] => PART5:inst.SW[1]
+SW[2] => PART5:inst.SW[2]
+SW[3] => PART5:inst.SW[3]
+SW[4] => PART5:inst.SW[4]
+SW[5] => PART5:inst.SW[5]
+SW[6] => PART5:inst.SW[6]
+SW[7] => PART5:inst.SW[7]
+SW[8] => PART5:inst.SW[8]
+SW[9] => PART5:inst.SW[9]
+SW[10] => PART5:inst.SW[10]
+SW[11] => PART5:inst.SW[11]
+SW[12] => PART5:inst.SW[12]
+SW[13] => PART5:inst.SW[13]
+SW[14] => PART5:inst.SW[14]
+SW[15] => PART5:inst.SW[15]
+HEX1[0] <= PART5:inst.HEX1[0]
+HEX1[1] <= PART5:inst.HEX1[1]
+HEX1[2] <= PART5:inst.HEX1[2]
+HEX1[3] <= PART5:inst.HEX1[3]
+HEX1[4] <= PART5:inst.HEX1[4]
+HEX1[5] <= PART5:inst.HEX1[5]
+HEX1[6] <= PART5:inst.HEX1[6]
+HEX2[0] <= PART5:inst.HEX2[0]
+HEX2[1] <= PART5:inst.HEX2[1]
+HEX2[2] <= PART5:inst.HEX2[2]
+HEX2[3] <= PART5:inst.HEX2[3]
+HEX2[4] <= PART5:inst.HEX2[4]
+HEX2[5] <= PART5:inst.HEX2[5]
+HEX2[6] <= PART5:inst.HEX2[6]
+HEX3[0] <= PART5:inst.HEX3[0]
+HEX3[1] <= PART5:inst.HEX3[1]
+HEX3[2] <= PART5:inst.HEX3[2]
+HEX3[3] <= PART5:inst.HEX3[3]
+HEX3[4] <= PART5:inst.HEX3[4]
+HEX3[5] <= PART5:inst.HEX3[5]
+HEX3[6] <= PART5:inst.HEX3[6]
+HEX4[0] <= PART5:inst.HEX4[0]
+HEX4[1] <= PART5:inst.HEX4[1]
+HEX4[2] <= PART5:inst.HEX4[2]
+HEX4[3] <= PART5:inst.HEX4[3]
+HEX4[4] <= PART5:inst.HEX4[4]
+HEX4[5] <= PART5:inst.HEX4[5]
+HEX4[6] <= PART5:inst.HEX4[6]
+HEX5[0] <= PART5:inst.HEX5[0]
+HEX5[1] <= PART5:inst.HEX5[1]
+HEX5[2] <= PART5:inst.HEX5[2]
+HEX5[3] <= PART5:inst.HEX5[3]
+HEX5[4] <= PART5:inst.HEX5[4]
+HEX5[5] <= PART5:inst.HEX5[5]
+HEX5[6] <= PART5:inst.HEX5[6]
+HEX6[0] <= PART5:inst.HEX6[0]
+HEX6[1] <= PART5:inst.HEX6[1]
+HEX6[2] <= PART5:inst.HEX6[2]
+HEX6[3] <= PART5:inst.HEX6[3]
+HEX6[4] <= PART5:inst.HEX6[4]
+HEX6[5] <= PART5:inst.HEX6[5]
+HEX6[6] <= PART5:inst.HEX6[6]
+HEX7[0] <= PART5:inst.HEX7[0]
+HEX7[1] <= PART5:inst.HEX7[1]
+HEX7[2] <= PART5:inst.HEX7[2]
+HEX7[3] <= PART5:inst.HEX7[3]
+HEX7[4] <= PART5:inst.HEX7[4]
+HEX7[5] <= PART5:inst.HEX7[5]
+HEX7[6] <= PART5:inst.HEX7[6]
+
+
+|lab3|PART5:inst
+KEY0 => KEY0.IN2
+KEY1 => KEY1.IN2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => SW[9].IN1
+SW[10] => SW[10].IN1
+SW[11] => SW[11].IN1
+SW[12] => SW[12].IN1
+SW[13] => SW[13].IN1
+SW[14] => SW[14].IN1
+SW[15] => SW[15].IN1
+HEX7[0] <= decoder_TEST:m8.port1
+HEX7[1] <= decoder_TEST:m8.port1
+HEX7[2] <= decoder_TEST:m8.port1
+HEX7[3] <= decoder_TEST:m8.port1
+HEX7[4] <= decoder_TEST:m8.port1
+HEX7[5] <= decoder_TEST:m8.port1
+HEX7[6] <= decoder_TEST:m8.port1
+HEX6[0] <= decoder_TEST:m7.port1
+HEX6[1] <= decoder_TEST:m7.port1
+HEX6[2] <= decoder_TEST:m7.port1
+HEX6[3] <= decoder_TEST:m7.port1
+HEX6[4] <= decoder_TEST:m7.port1
+HEX6[5] <= decoder_TEST:m7.port1
+HEX6[6] <= decoder_TEST:m7.port1
+HEX5[0] <= decoder_TEST:m6.port1
+HEX5[1] <= decoder_TEST:m6.port1
+HEX5[2] <= decoder_TEST:m6.port1
+HEX5[3] <= decoder_TEST:m6.port1
+HEX5[4] <= decoder_TEST:m6.port1
+HEX5[5] <= decoder_TEST:m6.port1
+HEX5[6] <= decoder_TEST:m6.port1
+HEX4[0] <= decoder_TEST:m5.port1
+HEX4[1] <= decoder_TEST:m5.port1
+HEX4[2] <= decoder_TEST:m5.port1
+HEX4[3] <= decoder_TEST:m5.port1
+HEX4[4] <= decoder_TEST:m5.port1
+HEX4[5] <= decoder_TEST:m5.port1
+HEX4[6] <= decoder_TEST:m5.port1
+HEX3[0] <= decoder_TEST:m4.port1
+HEX3[1] <= decoder_TEST:m4.port1
+HEX3[2] <= decoder_TEST:m4.port1
+HEX3[3] <= decoder_TEST:m4.port1
+HEX3[4] <= decoder_TEST:m4.port1
+HEX3[5] <= decoder_TEST:m4.port1
+HEX3[6] <= decoder_TEST:m4.port1
+HEX2[0] <= decoder_TEST:m3.port1
+HEX2[1] <= decoder_TEST:m3.port1
+HEX2[2] <= decoder_TEST:m3.port1
+HEX2[3] <= decoder_TEST:m3.port1
+HEX2[4] <= decoder_TEST:m3.port1
+HEX2[5] <= decoder_TEST:m3.port1
+HEX2[6] <= decoder_TEST:m3.port1
+HEX1[0] <= decoder_TEST:m2.port1
+HEX1[1] <= decoder_TEST:m2.port1
+HEX1[2] <= decoder_TEST:m2.port1
+HEX1[3] <= decoder_TEST:m2.port1
+HEX1[4] <= decoder_TEST:m2.port1
+HEX1[5] <= decoder_TEST:m2.port1
+HEX1[6] <= decoder_TEST:m2.port1
+HEX0[0] <= decoder_TEST:m1.port1
+HEX0[1] <= decoder_TEST:m1.port1
+HEX0[2] <= decoder_TEST:m1.port1
+HEX0[3] <= decoder_TEST:m1.port1
+HEX0[4] <= decoder_TEST:m1.port1
+HEX0[5] <= decoder_TEST:m1.port1
+HEX0[6] <= decoder_TEST:m1.port1
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1
+Clk => Clk.IN16
+R => R.IN16
+D[0] => D[0].IN1
+D[1] => D[1].IN1
+D[2] => D[2].IN1
+D[3] => D[3].IN1
+D[4] => D[4].IN1
+D[5] => D[5].IN1
+D[6] => D[6].IN1
+D[7] => D[7].IN1
+D[8] => D[8].IN1
+D[9] => D[9].IN1
+D[10] => D[10].IN1
+D[11] => D[11].IN1
+D[12] => D[12].IN1
+D[13] => D[13].IN1
+D[14] => D[14].IN1
+D[15] => D[15].IN1
+Q[0] <= D_trigger_test:m1.port3
+Q[1] <= D_trigger_test:m2.port3
+Q[2] <= D_trigger_test:m3.port3
+Q[3] <= D_trigger_test:m4.port3
+Q[4] <= D_trigger_test:m5.port3
+Q[5] <= D_trigger_test:m6.port3
+Q[6] <= D_trigger_test:m7.port3
+Q[7] <= D_trigger_test:m8.port3
+Q[8] <= D_trigger_test:m9.port3
+Q[9] <= D_trigger_test:m10.port3
+Q[10] <= D_trigger_test:m11.port3
+Q[11] <= D_trigger_test:m12.port3
+Q[12] <= D_trigger_test:m13.port3
+Q[13] <= D_trigger_test:m14.port3
+Q[14] <= D_trigger_test:m15.port3
+Q[15] <= D_trigger_test:m16.port3
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m1
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m2
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m3
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m4
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m5
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m6
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m7
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m8
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m9
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m10
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m11
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m12
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m13
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m14
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m15
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n1|D_trigger_test:m16
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2
+Clk => Clk.IN16
+R => R.IN16
+D[0] => D[0].IN1
+D[1] => D[1].IN1
+D[2] => D[2].IN1
+D[3] => D[3].IN1
+D[4] => D[4].IN1
+D[5] => D[5].IN1
+D[6] => D[6].IN1
+D[7] => D[7].IN1
+D[8] => D[8].IN1
+D[9] => D[9].IN1
+D[10] => D[10].IN1
+D[11] => D[11].IN1
+D[12] => D[12].IN1
+D[13] => D[13].IN1
+D[14] => D[14].IN1
+D[15] => D[15].IN1
+Q[0] <= D_trigger_test:m1.port3
+Q[1] <= D_trigger_test:m2.port3
+Q[2] <= D_trigger_test:m3.port3
+Q[3] <= D_trigger_test:m4.port3
+Q[4] <= D_trigger_test:m5.port3
+Q[5] <= D_trigger_test:m6.port3
+Q[6] <= D_trigger_test:m7.port3
+Q[7] <= D_trigger_test:m8.port3
+Q[8] <= D_trigger_test:m9.port3
+Q[9] <= D_trigger_test:m10.port3
+Q[10] <= D_trigger_test:m11.port3
+Q[11] <= D_trigger_test:m12.port3
+Q[12] <= D_trigger_test:m13.port3
+Q[13] <= D_trigger_test:m14.port3
+Q[14] <= D_trigger_test:m15.port3
+Q[15] <= D_trigger_test:m16.port3
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m1
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m2
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m3
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m4
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m5
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m6
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m7
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m8
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m9
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m10
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m11
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m12
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m13
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m14
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m15
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|D_trigger_HEX:n2|D_trigger_test:m16
+Clk => Q~reg0.CLK
+R => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m1
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m2
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m3
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m4
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m5
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m6
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m7
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|PART5:inst|decoder_TEST:m8
+C[0] => Decoder0.IN3
+C[1] => Decoder0.IN2
+C[2] => Decoder0.IN1
+C[3] => Decoder0.IN0
+HEX[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

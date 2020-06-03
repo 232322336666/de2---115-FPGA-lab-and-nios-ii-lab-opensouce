@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Mar 15 16:57:22 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : qrs_lab2_part345
+Top-level Entity Name : qrs_lab2_part345
+Family : Cyclone IV E
+Total logic elements : 3,932
+    Total combinational functions : 3,350
+    Dedicated logic registers : 2,235
+Total registers : 2235
+Total pins : 67
+Total virtual pins : 0
+Total memory bits : 309,120
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 0

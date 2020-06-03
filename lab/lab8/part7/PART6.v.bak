@@ -1,0 +1,45 @@
+module part5(HEX,SW,DATA,LEDG,LEDR,clk50M,KEY);
+input wire [7:0] DATA;
+input wire [0:0]SW;
+input wire clk50M;
+input wire[0:0]KEY;
+output wire [15:0] LEDR;
+output wire LEDG;
+output [6:0]  HEX7,HEX6,HEX5,HEX4,HEX3,HEX2,HEX1,HEX0;
+
+
+wire clk1hz;
+reg [25:0] count;
+reg [4:0] add;
+wire [7:0] q;
+
+assign LEDG=W;
+assign LEDR[7:0]=DATA;
+
+always @(posedge clk50M)
+begin
+if(count==50000000) count<=0;
+else count<=count+1'b1;
+end
+assign clk1hz=count[25];
+
+
+
+always @(posedge clk1hz, negedge KEY[0])
+begin 
+if(~KEY[0]) add<=0;
+else add<=add+1'b1;
+end
+
+ramlpm z(add,~clk1hz,DATA,W,q);
+
+decoder_TEST a(add[3:0],HEX7);
+decoder_TEST b({1'b0,1'b0,1'b0,add[4]},HEX6);
+decoder_TEST c(DATA[7:4],HEX5);
+decoder_TEST d(DATA[3:0],HEX4);
+decoder_TEST e(add[3:0],HEX3);
+decoder_TEST f({1'b0,1'b0,1'b0,add[4]},HEX2);
+decoder_TEST g(q[3:0],HEX1);
+decoder_TEST h(q[7:4],HEX0;
+
+endmodule

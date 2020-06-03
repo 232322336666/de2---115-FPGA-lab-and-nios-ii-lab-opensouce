@@ -1,0 +1,809 @@
+Analysis & Synthesis report for JSQ_FZN
+Fri Dec 20 20:47:14 2019
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. Analysis & Synthesis IP Cores Summary
+ 10. User-Specified and Inferred Latches
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component
+ 14. Parameter Settings for User Entity Instance: calculate:u1|operator:m4|myadd:m2|lpm_add_sub:LPM_ADD_SUB_component
+ 15. Parameter Settings for User Entity Instance: calculate:u1|operator:m4|myadd:m3|lpm_add_sub:LPM_ADD_SUB_component
+ 16. Parameter Settings for User Entity Instance: calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component
+ 17. Parameter Settings for User Entity Instance: calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component
+ 18. lpm_mult Parameter Settings by Entity Instance
+ 19. Port Connectivity Checks: "calculate:u1|operator:m4|mydivi:m5"
+ 20. Port Connectivity Checks: "calculate:u1|operator:m4|myadd:m3"
+ 21. Port Connectivity Checks: "calculate:u1|operator:m4|myadd:m2"
+ 22. Port Connectivity Checks: "calculate:u1|switch_321:m1"
+ 23. Elapsed Time Per Partition
+ 24. Analysis & Synthesis Messages
+ 25. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Dec 20 20:47:14 2019       ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                      ; JSQ_FZN                                     ;
+; Top-level Entity Name              ; JSQ_FZN_top                                 ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 562                                         ;
+;     Total combinational functions  ; 530                                         ;
+;     Dedicated logic registers      ; 34                                          ;
+; Total registers                    ; 34                                          ;
+; Total pins                         ; 83                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 2                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                                      ; JSQ_FZN_top        ; JSQ_FZN            ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                               ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                           ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
+; SEG_HEX.v                        ; yes             ; User Verilog HDL File        ; E:/altera/13.1/lab/JSQ_FZN/SEG_HEX.v                                   ;         ;
+; JSQ_FZN_top.v                    ; yes             ; User Verilog HDL File        ; E:/altera/13.1/lab/JSQ_FZN/JSQ_FZN_top.v                               ;         ;
+; register.v                       ; yes             ; User Verilog HDL File        ; E:/altera/13.1/lab/JSQ_FZN/register.v                                  ;         ;
+; switch.v                         ; yes             ; User Verilog HDL File        ; E:/altera/13.1/lab/JSQ_FZN/switch.v                                    ;         ;
+; calculate.v                      ; yes             ; User Verilog HDL File        ; E:/altera/13.1/lab/JSQ_FZN/calculate.v                                 ;         ;
+; operator.v                       ; yes             ; User Verilog HDL File        ; E:/altera/13.1/lab/JSQ_FZN/operator.v                                  ;         ;
+; myadd.v                          ; yes             ; User Wizard-Generated File   ; E:/altera/13.1/lab/JSQ_FZN/myadd.v                                     ;         ;
+; mymult.v                         ; yes             ; User Wizard-Generated File   ; E:/altera/13.1/lab/JSQ_FZN/mymult.v                                    ;         ;
+; mydivi.v                         ; yes             ; User Wizard-Generated File   ; E:/altera/13.1/lab/JSQ_FZN/mydivi.v                                    ;         ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
+; addcore.inc                      ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/addcore.inc             ;         ;
+; look_add.inc                     ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/look_add.inc            ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc            ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/altshift.inc            ;         ;
+; alt_stratix_add_sub.inc          ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
+; aglobal131.inc                   ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc          ;         ;
+; db/add_sub_79i.tdf               ; yes             ; Auto-Generated Megafunction  ; E:/altera/13.1/lab/JSQ_FZN/db/add_sub_79i.tdf                          ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf            ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/multcore.inc            ;         ;
+; db/mult_kfn.tdf                  ; yes             ; Auto-Generated Megafunction  ; E:/altera/13.1/lab/JSQ_FZN/db/mult_kfn.tdf                             ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/lpm_divide.tdf          ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/abs_divider.inc         ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; e:/altera/13.1/quartus/libraries/megafunctions/sign_div_unsign.inc     ;         ;
+; db/lpm_divide_uos.tdf            ; yes             ; Auto-Generated Megafunction  ; E:/altera/13.1/lab/JSQ_FZN/db/lpm_divide_uos.tdf                       ;         ;
+; db/sign_div_unsign_bnh.tdf       ; yes             ; Auto-Generated Megafunction  ; E:/altera/13.1/lab/JSQ_FZN/db/sign_div_unsign_bnh.tdf                  ;         ;
+; db/alt_u_div_aaf.tdf             ; yes             ; Auto-Generated Megafunction  ; E:/altera/13.1/lab/JSQ_FZN/db/alt_u_div_aaf.tdf                        ;         ;
+; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction  ; E:/altera/13.1/lab/JSQ_FZN/db/add_sub_7pc.tdf                          ;         ;
+; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction  ; E:/altera/13.1/lab/JSQ_FZN/db/add_sub_8pc.tdf                          ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
+
+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++---------------------------------------------+--------------+
+; Resource                                    ; Usage        ;
++---------------------------------------------+--------------+
+; Estimated Total logic elements              ; 562          ;
+;                                             ;              ;
+; Total combinational functions               ; 530          ;
+; Logic element usage by number of LUT inputs ;              ;
+;     -- 4 input functions                    ; 267          ;
+;     -- 3 input functions                    ; 234          ;
+;     -- <=2 input functions                  ; 29           ;
+;                                             ;              ;
+; Logic elements by mode                      ;              ;
+;     -- normal mode                          ; 356          ;
+;     -- arithmetic mode                      ; 174          ;
+;                                             ;              ;
+; Total registers                             ; 34           ;
+;     -- Dedicated logic registers            ; 34           ;
+;     -- I/O registers                        ; 0            ;
+;                                             ;              ;
+; I/O pins                                    ; 83           ;
+; Embedded Multiplier 9-bit elements          ; 2            ;
+; Maximum fan-out node                        ; KEY[0]~input ;
+; Maximum fan-out                             ; 62           ;
+; Total fan-out                               ; 2044         ;
+; Average fan-out                             ; 2.79         ;
++---------------------------------------------+--------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                ;
++-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                   ; Library Name ;
++-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |JSQ_FZN_top                                    ; 530 (0)           ; 34 (0)       ; 0           ; 2            ; 0       ; 1         ; 83   ; 0            ; |JSQ_FZN_top                                                                                                                                                                          ; work         ;
+;    |SEG_HEX:u2|                                 ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u2                                                                                                                                                               ; work         ;
+;    |SEG_HEX:u3|                                 ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u3                                                                                                                                                               ; work         ;
+;    |SEG_HEX:u4|                                 ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u4                                                                                                                                                               ; work         ;
+;    |SEG_HEX:u5|                                 ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u5                                                                                                                                                               ; work         ;
+;    |SEG_HEX:u6|                                 ; 21 (21)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u6                                                                                                                                                               ; work         ;
+;    |SEG_HEX:u7|                                 ; 21 (21)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u7                                                                                                                                                               ; work         ;
+;    |SEG_HEX:u8|                                 ; 21 (21)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u8                                                                                                                                                               ; work         ;
+;    |SEG_HEX:u9|                                 ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|SEG_HEX:u9                                                                                                                                                               ; work         ;
+;    |calculate:u1|                               ; 432 (6)           ; 34 (2)       ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1                                                                                                                                                             ; work         ;
+;       |operator:m4|                             ; 356 (88)          ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4                                                                                                                                                 ; work         ;
+;          |myadd:m1|                             ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|myadd:m1                                                                                                                                        ; work         ;
+;             |lpm_add_sub:LPM_ADD_SUB_component| ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component                                                                                                      ; work         ;
+;                |add_sub_79i:auto_generated|     ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_79i:auto_generated                                                                           ; work         ;
+;          |mydivi:m5|                            ; 252 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5                                                                                                                                       ; work         ;
+;             |lpm_divide:LPM_DIVIDE_component|   ; 252 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component                                                                                                       ; work         ;
+;                |lpm_divide_uos:auto_generated|  ; 252 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated                                                                         ; work         ;
+;                   |sign_div_unsign_bnh:divider| ; 252 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated|sign_div_unsign_bnh:divider                                             ; work         ;
+;                      |alt_u_div_aaf:divider|    ; 252 (251)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated|sign_div_unsign_bnh:divider|alt_u_div_aaf:divider                       ; work         ;
+;                         |add_sub_8pc:add_sub_1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated|sign_div_unsign_bnh:divider|alt_u_div_aaf:divider|add_sub_8pc:add_sub_1 ; work         ;
+;          |mymult:m4|                            ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mymult:m4                                                                                                                                       ; work         ;
+;             |lpm_mult:lpm_mult_component|       ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component                                                                                                           ; work         ;
+;                |mult_kfn:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component|mult_kfn:auto_generated                                                                                   ; work         ;
+;       |register_HEX:m2|                         ; 0 (0)             ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2                                                                                                                                             ; work         ;
+;          |D_trigger:m10|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m10                                                                                                                               ; work         ;
+;          |D_trigger:m11|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m11                                                                                                                               ; work         ;
+;          |D_trigger:m12|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m12                                                                                                                               ; work         ;
+;          |D_trigger:m13|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m13                                                                                                                               ; work         ;
+;          |D_trigger:m14|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m14                                                                                                                               ; work         ;
+;          |D_trigger:m15|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m15                                                                                                                               ; work         ;
+;          |D_trigger:m16|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m16                                                                                                                               ; work         ;
+;          |D_trigger:m1|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m1                                                                                                                                ; work         ;
+;          |D_trigger:m2|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m2                                                                                                                                ; work         ;
+;          |D_trigger:m3|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m3                                                                                                                                ; work         ;
+;          |D_trigger:m4|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m4                                                                                                                                ; work         ;
+;          |D_trigger:m5|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m5                                                                                                                                ; work         ;
+;          |D_trigger:m6|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m6                                                                                                                                ; work         ;
+;          |D_trigger:m7|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m7                                                                                                                                ; work         ;
+;          |D_trigger:m8|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m8                                                                                                                                ; work         ;
+;          |D_trigger:m9|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m2|D_trigger:m9                                                                                                                                ; work         ;
+;       |register_HEX:m3|                         ; 0 (0)             ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3                                                                                                                                             ; work         ;
+;          |D_trigger:m10|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m10                                                                                                                               ; work         ;
+;          |D_trigger:m11|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m11                                                                                                                               ; work         ;
+;          |D_trigger:m12|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m12                                                                                                                               ; work         ;
+;          |D_trigger:m13|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m13                                                                                                                               ; work         ;
+;          |D_trigger:m14|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m14                                                                                                                               ; work         ;
+;          |D_trigger:m15|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m15                                                                                                                               ; work         ;
+;          |D_trigger:m16|                        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m16                                                                                                                               ; work         ;
+;          |D_trigger:m1|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m1                                                                                                                                ; work         ;
+;          |D_trigger:m2|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m2                                                                                                                                ; work         ;
+;          |D_trigger:m3|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m3                                                                                                                                ; work         ;
+;          |D_trigger:m4|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m4                                                                                                                                ; work         ;
+;          |D_trigger:m5|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m5                                                                                                                                ; work         ;
+;          |D_trigger:m6|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m6                                                                                                                                ; work         ;
+;          |D_trigger:m7|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m7                                                                                                                                ; work         ;
+;          |D_trigger:m8|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m8                                                                                                                                ; work         ;
+;          |D_trigger:m9|                         ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|register_HEX:m3|D_trigger:m9                                                                                                                                ; work         ;
+;       |switch_321:m1|                           ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|switch_321:m1                                                                                                                                               ; work         ;
+;       |switch_323:m5|                           ; 69 (69)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |JSQ_FZN_top|calculate:u1|switch_323:m5                                                                                                                                               ; work         ;
++-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 1           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 2           ;
+; Signed Embedded Multipliers           ; 0           ;
+; Unsigned Embedded Multipliers         ; 1           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                 ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------------+-------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                 ; IP Include File                     ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------------+-------------------------------------+
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |JSQ_FZN_top|calculate:u1|operator:m4|myadd:m1  ; E:/altera/13.1/lab/JSQ_FZN/myadd.v  ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |JSQ_FZN_top|calculate:u1|operator:m4|myadd:m2  ; E:/altera/13.1/lab/JSQ_FZN/myadd.v  ;
+; Altera ; LPM_ADD_SUB  ; 13.1    ; N/A          ; N/A          ; |JSQ_FZN_top|calculate:u1|operator:m4|myadd:m3  ; E:/altera/13.1/lab/JSQ_FZN/myadd.v  ;
+; Altera ; LPM_MULT     ; 13.1    ; N/A          ; N/A          ; |JSQ_FZN_top|calculate:u1|operator:m4|mymult:m4 ; E:/altera/13.1/lab/JSQ_FZN/mymult.v ;
+; Altera ; LPM_DIVIDE   ; 13.1    ; N/A          ; N/A          ; |JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5 ; E:/altera/13.1/lab/JSQ_FZN/mydivi.v ;
++--------+--------------+---------+--------------+--------------+-------------------------------------------------+-------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; calculate:u1|LEDG[0]                                ; calculate:u1|Mux3   ; yes                    ;
+; calculate:u1|LEDG[1]                                ; calculate:u1|Mux3   ; yes                    ;
+; calculate:u1|LEDG[2]                                ; calculate:u1|Mux3   ; yes                    ;
+; calculate:u1|operator:m4|LEGG_OVERFLOW              ; KEY[0]              ; yes                    ;
+; calculate:u1|operator:m4|OUT[0]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[1]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[2]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[3]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[4]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[5]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[6]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[7]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[8]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[9]                     ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[10]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[11]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[12]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[13]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[14]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[15]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[16]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[17]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[18]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[19]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[20]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[21]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[22]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[23]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[24]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[25]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[26]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[27]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[28]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[29]                    ; VCC                 ; yes                    ;
+; calculate:u1|operator:m4|OUT[31]                    ; VCC                 ; yes                    ;
+; Number of user-specified and inferred latches = 35  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 34    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 34    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 32    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |JSQ_FZN_top|calculate:u1|switch_323:m5|OUT[3] ;
+; 12:1               ; 15 bits   ; 120 LEs       ; 60 LEs               ; 60 LEs                 ; No         ; |JSQ_FZN_top|calculate:u1|operator:m4|Mux18    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+--------------+--------------------------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                                     ;
++------------------------+--------------+--------------------------------------------------------------------------+
+; LPM_WIDTH              ; 15           ; Signed Integer                                                           ;
+; LPM_REPRESENTATION     ; UNSIGNED     ; Untyped                                                                  ;
+; LPM_DIRECTION          ; ADD          ; Untyped                                                                  ;
+; ONE_INPUT_IS_CONSTANT  ; NO           ; Untyped                                                                  ;
+; LPM_PIPELINE           ; 0            ; Untyped                                                                  ;
+; MAXIMIZE_SPEED         ; 5            ; Untyped                                                                  ;
+; REGISTERED_AT_END      ; 0            ; Untyped                                                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5            ; Untyped                                                                  ;
+; USE_CS_BUFFERS         ; 1            ; Untyped                                                                  ;
+; CARRY_CHAIN            ; MANUAL       ; Untyped                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                                                       ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                                  ;
+; USE_WYS                ; OFF          ; Untyped                                                                  ;
+; STYLE                  ; FAST         ; Untyped                                                                  ;
+; CBXI_PARAMETER         ; add_sub_79i  ; Untyped                                                                  ;
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                                           ;
++------------------------+--------------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: calculate:u1|operator:m4|myadd:m2|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+--------------+--------------------------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                                     ;
++------------------------+--------------+--------------------------------------------------------------------------+
+; LPM_WIDTH              ; 15           ; Signed Integer                                                           ;
+; LPM_REPRESENTATION     ; UNSIGNED     ; Untyped                                                                  ;
+; LPM_DIRECTION          ; ADD          ; Untyped                                                                  ;
+; ONE_INPUT_IS_CONSTANT  ; NO           ; Untyped                                                                  ;
+; LPM_PIPELINE           ; 0            ; Untyped                                                                  ;
+; MAXIMIZE_SPEED         ; 5            ; Untyped                                                                  ;
+; REGISTERED_AT_END      ; 0            ; Untyped                                                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5            ; Untyped                                                                  ;
+; USE_CS_BUFFERS         ; 1            ; Untyped                                                                  ;
+; CARRY_CHAIN            ; MANUAL       ; Untyped                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                                                       ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                                  ;
+; USE_WYS                ; OFF          ; Untyped                                                                  ;
+; STYLE                  ; FAST         ; Untyped                                                                  ;
+; CBXI_PARAMETER         ; add_sub_79i  ; Untyped                                                                  ;
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                                           ;
++------------------------+--------------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: calculate:u1|operator:m4|myadd:m3|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+--------------+--------------------------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                                     ;
++------------------------+--------------+--------------------------------------------------------------------------+
+; LPM_WIDTH              ; 15           ; Signed Integer                                                           ;
+; LPM_REPRESENTATION     ; UNSIGNED     ; Untyped                                                                  ;
+; LPM_DIRECTION          ; ADD          ; Untyped                                                                  ;
+; ONE_INPUT_IS_CONSTANT  ; NO           ; Untyped                                                                  ;
+; LPM_PIPELINE           ; 0            ; Untyped                                                                  ;
+; MAXIMIZE_SPEED         ; 5            ; Untyped                                                                  ;
+; REGISTERED_AT_END      ; 0            ; Untyped                                                                  ;
+; OPTIMIZE_FOR_SPEED     ; 5            ; Untyped                                                                  ;
+; USE_CS_BUFFERS         ; 1            ; Untyped                                                                  ;
+; CARRY_CHAIN            ; MANUAL       ; Untyped                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48           ; CARRY_CHAIN_LENGTH                                                       ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                                  ;
+; USE_WYS                ; OFF          ; Untyped                                                                  ;
+; STYLE                  ; FAST         ; Untyped                                                                  ;
+; CBXI_PARAMETER         ; add_sub_79i  ; Untyped                                                                  ;
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                                           ;
++------------------------+--------------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component ;
++------------------------------------------------+--------------+---------------------------------------------+
+; Parameter Name                                 ; Value        ; Type                                        ;
++------------------------------------------------+--------------+---------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY                                  ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY                                ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE                                ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE                              ;
+; LPM_WIDTHA                                     ; 15           ; Signed Integer                              ;
+; LPM_WIDTHB                                     ; 15           ; Signed Integer                              ;
+; LPM_WIDTHP                                     ; 30           ; Signed Integer                              ;
+; LPM_WIDTHR                                     ; 0            ; Untyped                                     ;
+; LPM_WIDTHS                                     ; 1            ; Untyped                                     ;
+; LPM_REPRESENTATION                             ; UNSIGNED     ; Untyped                                     ;
+; LPM_PIPELINE                                   ; 0            ; Untyped                                     ;
+; LATENCY                                        ; 0            ; Untyped                                     ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped                                     ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped                                     ;
+; USE_EAB                                        ; OFF          ; Untyped                                     ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped                                     ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped                                     ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped                                     ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K                         ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped                                     ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped                                     ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped                                     ;
+; CBXI_PARAMETER                                 ; mult_kfn     ; Untyped                                     ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped                                     ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped                                     ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped                                     ;
++------------------------------------------------+--------------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component ;
++------------------------+----------------+-----------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                  ;
++------------------------+----------------+-----------------------------------------------------------------------+
+; LPM_WIDTHN             ; 15             ; Signed Integer                                                        ;
+; LPM_WIDTHD             ; 15             ; Signed Integer                                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                               ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                               ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                               ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                               ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                               ;
+; CBXI_PARAMETER         ; lpm_divide_uos ; Untyped                                                               ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                               ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                               ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                            ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                          ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                          ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                        ;
++------------------------+----------------+-----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                                                         ;
++---------------------------------------+----------------------------------------------------------------+
+; Name                                  ; Value                                                          ;
++---------------------------------------+----------------------------------------------------------------+
+; Number of entity instances            ; 1                                                              ;
+; Entity Instance                       ; calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component ;
+;     -- LPM_WIDTHA                     ; 15                                                             ;
+;     -- LPM_WIDTHB                     ; 15                                                             ;
+;     -- LPM_WIDTHP                     ; 30                                                             ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                                                       ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                             ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                             ;
+;     -- USE_EAB                        ; OFF                                                            ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                                           ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                             ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                             ;
++---------------------------------------+----------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "calculate:u1|operator:m4|mydivi:m5"                                                   ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                             ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+; remain ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "calculate:u1|operator:m4|myadd:m3"                                                  ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "calculate:u1|operator:m4|myadd:m2"                                                  ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "calculate:u1|switch_321:m1"                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Q3   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+    Info: Processing started: Fri Dec 20 20:47:09 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off JSQ_FZN -c JSQ_FZN
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file seg_hex.v
+    Info (12023): Found entity 1: SEG_HEX
+Warning (10238): Verilog Module Declaration warning at JSQ_FZN_top.v(24): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "JSQ_FZN_top"
+Info (12021): Found 1 design units, including 1 entities, in source file jsq_fzn_top.v
+    Info (12023): Found entity 1: JSQ_FZN_top
+Info (12021): Found 1 design units, including 1 entities, in source file pll_fzn.v
+    Info (12023): Found entity 1: pll_fzn
+Info (12021): Found 2 design units, including 2 entities, in source file register.v
+    Info (12023): Found entity 1: D_trigger
+    Info (12023): Found entity 2: register_HEX
+Info (12021): Found 4 design units, including 4 entities, in source file switch.v
+    Info (12023): Found entity 1: switch_hex
+    Info (12023): Found entity 2: switch
+    Info (12023): Found entity 3: switch_321
+    Info (12023): Found entity 4: switch_323
+Info (12021): Found 1 design units, including 1 entities, in source file calculate.v
+    Info (12023): Found entity 1: calculate
+Info (12021): Found 2 design units, including 2 entities, in source file operator.v
+    Info (12023): Found entity 1: resolving
+    Info (12023): Found entity 2: operator
+Info (12021): Found 1 design units, including 1 entities, in source file myadd.v
+    Info (12023): Found entity 1: myadd
+Info (12021): Found 1 design units, including 1 entities, in source file mymult.v
+    Info (12023): Found entity 1: mymult
+Info (12021): Found 1 design units, including 1 entities, in source file mydivi.v
+    Info (12023): Found entity 1: mydivi
+Info (12127): Elaborating entity "JSQ_FZN_top" for the top level hierarchy
+Info (12128): Elaborating entity "calculate" for hierarchy "calculate:u1"
+Warning (10270): Verilog HDL Case Statement warning at calculate.v(46): incomplete case statement has no default case item
+Warning (10240): Verilog HDL Always Construct warning at calculate.v(44): inferring latch(es) for variable "LEDG", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "LEDG[0]" at calculate.v(44)
+Info (10041): Inferred latch for "LEDG[1]" at calculate.v(44)
+Info (10041): Inferred latch for "LEDG[2]" at calculate.v(44)
+Info (12128): Elaborating entity "switch_321" for hierarchy "calculate:u1|switch_321:m1"
+Info (12128): Elaborating entity "register_HEX" for hierarchy "calculate:u1|register_HEX:m2"
+Info (12128): Elaborating entity "D_trigger" for hierarchy "calculate:u1|register_HEX:m2|D_trigger:m1"
+Info (12128): Elaborating entity "operator" for hierarchy "calculate:u1|operator:m4"
+Warning (10235): Verilog HDL Always Construct warning at operator.v(50): variable "KEY0" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(54): variable "OUT1" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(59): variable "OUT2" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(64): variable "OUT3" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(68): variable "OUT1" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(73): variable "OUT2" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(78): variable "OUT3" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(87): variable "OUT2" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(92): variable "OUT3" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(96): variable "OUT1" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(101): variable "OUT2" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(106): variable "OUT3" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(110): variable "OUT1" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(112): variable "OUT4" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(113): variable "OUT4" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(114): variable "OUT4" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(115): variable "OUT4" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(118): variable "OUT5" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(120): variable "OUT5" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(122): variable "OUT5" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10235): Verilog HDL Always Construct warning at operator.v(124): variable "OUT5" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Warning (10240): Verilog HDL Always Construct warning at operator.v(48): inferring latch(es) for variable "OUT", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at operator.v(48): inferring latch(es) for variable "LEGG_OVERFLOW", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "LEGG_OVERFLOW" at operator.v(52)
+Info (10041): Inferred latch for "OUT[0]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[1]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[2]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[3]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[4]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[5]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[6]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[7]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[8]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[9]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[10]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[11]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[12]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[13]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[14]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[15]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[16]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[17]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[18]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[19]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[20]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[21]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[22]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[23]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[24]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[25]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[26]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[27]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[28]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[29]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[30]" at operator.v(52)
+Info (10041): Inferred latch for "OUT[31]" at operator.v(52)
+Info (12128): Elaborating entity "resolving" for hierarchy "calculate:u1|operator:m4|resolving:a1"
+Info (12128): Elaborating entity "myadd" for hierarchy "calculate:u1|operator:m4|myadd:m1"
+Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component"
+Info (12130): Elaborated megafunction instantiation "calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component"
+Info (12133): Instantiated megafunction "calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter:
+    Info (12134): Parameter "lpm_direction" = "ADD"
+    Info (12134): Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=NO"
+    Info (12134): Parameter "lpm_representation" = "UNSIGNED"
+    Info (12134): Parameter "lpm_type" = "LPM_ADD_SUB"
+    Info (12134): Parameter "lpm_width" = "15"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_79i.tdf
+    Info (12023): Found entity 1: add_sub_79i
+Info (12128): Elaborating entity "add_sub_79i" for hierarchy "calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_79i:auto_generated"
+Info (12128): Elaborating entity "mymult" for hierarchy "calculate:u1|operator:m4|mymult:m4"
+Info (12128): Elaborating entity "lpm_mult" for hierarchy "calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component"
+Info (12130): Elaborated megafunction instantiation "calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component"
+Info (12133): Instantiated megafunction "calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component" with the following parameter:
+    Info (12134): Parameter "lpm_hint" = "MAXIMIZE_SPEED=5"
+    Info (12134): Parameter "lpm_representation" = "UNSIGNED"
+    Info (12134): Parameter "lpm_type" = "LPM_MULT"
+    Info (12134): Parameter "lpm_widtha" = "15"
+    Info (12134): Parameter "lpm_widthb" = "15"
+    Info (12134): Parameter "lpm_widthp" = "30"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_kfn.tdf
+    Info (12023): Found entity 1: mult_kfn
+Info (12128): Elaborating entity "mult_kfn" for hierarchy "calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component|mult_kfn:auto_generated"
+Info (12128): Elaborating entity "mydivi" for hierarchy "calculate:u1|operator:m4|mydivi:m5"
+Info (12128): Elaborating entity "lpm_divide" for hierarchy "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component"
+Info (12130): Elaborated megafunction instantiation "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component"
+Info (12133): Instantiated megafunction "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component" with the following parameter:
+    Info (12134): Parameter "lpm_drepresentation" = "UNSIGNED"
+    Info (12134): Parameter "lpm_hint" = "LPM_REMAINDERPOSITIVE=TRUE"
+    Info (12134): Parameter "lpm_nrepresentation" = "UNSIGNED"
+    Info (12134): Parameter "lpm_type" = "LPM_DIVIDE"
+    Info (12134): Parameter "lpm_widthd" = "15"
+    Info (12134): Parameter "lpm_widthn" = "15"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_uos.tdf
+    Info (12023): Found entity 1: lpm_divide_uos
+Info (12128): Elaborating entity "lpm_divide_uos" for hierarchy "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated"
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_bnh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_bnh
+Info (12128): Elaborating entity "sign_div_unsign_bnh" for hierarchy "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated|sign_div_unsign_bnh:divider"
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_aaf.tdf
+    Info (12023): Found entity 1: alt_u_div_aaf
+Info (12128): Elaborating entity "alt_u_div_aaf" for hierarchy "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated|sign_div_unsign_bnh:divider|alt_u_div_aaf:divider"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_7pc.tdf
+    Info (12023): Found entity 1: add_sub_7pc
+Info (12128): Elaborating entity "add_sub_7pc" for hierarchy "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated|sign_div_unsign_bnh:divider|alt_u_div_aaf:divider|add_sub_7pc:add_sub_0"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8pc.tdf
+    Info (12023): Found entity 1: add_sub_8pc
+Info (12128): Elaborating entity "add_sub_8pc" for hierarchy "calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component|lpm_divide_uos:auto_generated|sign_div_unsign_bnh:divider|alt_u_div_aaf:divider|add_sub_8pc:add_sub_1"
+Info (12128): Elaborating entity "switch_323" for hierarchy "calculate:u1|switch_323:m5"
+Warning (10235): Verilog HDL Always Construct warning at switch.v(68): variable "DATA3" is read inside the Always Construct but isn't in the Always Construct's Event Control
+Info (12128): Elaborating entity "SEG_HEX" for hierarchy "SEG_HEX:u2"
+Warning (13012): Latch calculate:u1|LEDG[0] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal calculate:u1|state[1]
+Warning (13012): Latch calculate:u1|LEDG[1] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal calculate:u1|state[0]
+Warning (13012): Latch calculate:u1|LEDG[2] has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal calculate:u1|state[1]
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file E:/altera/13.1/lab/JSQ_FZN/output_files/JSQ_FZN.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "CLOCK_50"
+    Warning (15610): No output dependent on input pin "KEY[3]"
+Info (21057): Implemented 648 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 23 input pins
+    Info (21059): Implemented 60 output pins
+    Info (21061): Implemented 563 logic cells
+    Info (21062): Implemented 2 DSP elements
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 36 warnings
+    Info: Peak virtual memory: 4693 megabytes
+    Info: Processing ended: Fri Dec 20 20:47:14 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in E:/altera/13.1/lab/JSQ_FZN/output_files/JSQ_FZN.map.smsg.
+
+

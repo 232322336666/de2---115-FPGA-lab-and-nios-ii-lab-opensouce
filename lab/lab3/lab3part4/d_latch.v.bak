@@ -1,0 +1,9 @@
+module d_latch(clk,d,q);
+input clk;
+output q;
+input d;
+reg d;
+always @(clk,d)
+if (clk);
+q<=d;
+endmodule 

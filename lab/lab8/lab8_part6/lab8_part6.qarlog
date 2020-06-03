@@ -1,0 +1,28 @@
+Quartus II Archive log --	C:/Users/k/Desktop/lab8_part6/lab8_part6.qarlog
+
+Archive:	C:/Users/k/Desktop/lab8_part6/lab8_part6.qar
+Date:		Sun Dec 08 12:49:25 2019
+Quartus II 64-Bit		15.0.0 Build 145 04/22/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+D:/quartus/lab1/lab1.out.sdc
+D:/quartus/lab1/lab1.qpf
+D:/quartus/lab1/lab1.qsf
+D:/quartus/lab1/lab6_part8.out.sdc
+D:/quartus/lab1/lab8/YMQ.v
+D:/quartus/lab1/lab8/part5.v
+D:/quartus/lab1/lab8/part6/ramlpm.qip
+D:/quartus/lab1/lab8/part6/ramlpm.v
+D:/quartus/lab1/lab8/part6/ramlpm_bb.v
+D:/quartus/lab1/lab8/ramlpm.mif
+d:/quartus/quartus/bin64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Mon Dec 09 08:43:44 2019
+Source archive file:	E:/altera/13.1/lab/lab6/lab8_part6/lab8_part6.qar
+Archive was extracted into	E:/altera/13.1/lab/lab6/lab8_part6/lab8_part6_restored/
+		 - successfully.

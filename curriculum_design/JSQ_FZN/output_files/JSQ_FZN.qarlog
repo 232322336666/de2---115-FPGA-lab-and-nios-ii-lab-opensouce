@@ -1,0 +1,37 @@
+Quartus II Archive log --	E:/altera/13.1/lab/JSQ_FZN/output_files/JSQ_FZN.qarlog
+
+Archive:	E:/altera/13.1/lab/JSQ_FZN/output_files/JSQ_FZN.qar
+Date:		Fri Dec 20 20:55:29 2019
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/JSQ_FZN/JSQ_FZN.qpf
+E:/altera/13.1/lab/JSQ_FZN/JSQ_FZN.qsf
+E:/altera/13.1/lab/JSQ_FZN/JSQ_FZN_top.v
+E:/altera/13.1/lab/JSQ_FZN/SEG_HEX.v
+E:/altera/13.1/lab/JSQ_FZN/calculate.v
+E:/altera/13.1/lab/JSQ_FZN/db/JSQ_FZN.cmp.hdb
+E:/altera/13.1/lab/JSQ_FZN/db/JSQ_FZN.db_info
+E:/altera/13.1/lab/JSQ_FZN/incremental_db/compiled_partitions/JSQ_FZN.db_info
+E:/altera/13.1/lab/JSQ_FZN/myadd.qip
+E:/altera/13.1/lab/JSQ_FZN/myadd.v
+E:/altera/13.1/lab/JSQ_FZN/myadd_bb.v
+E:/altera/13.1/lab/JSQ_FZN/mydivi.qip
+E:/altera/13.1/lab/JSQ_FZN/mydivi.v
+E:/altera/13.1/lab/JSQ_FZN/mydivi_bb.v
+E:/altera/13.1/lab/JSQ_FZN/mymult.qip
+E:/altera/13.1/lab/JSQ_FZN/mymult.v
+E:/altera/13.1/lab/JSQ_FZN/mymult_bb.v
+E:/altera/13.1/lab/JSQ_FZN/operator.v
+E:/altera/13.1/lab/JSQ_FZN/output_files/Waveform.vwf
+E:/altera/13.1/lab/JSQ_FZN/pll_fzn.ppf
+E:/altera/13.1/lab/JSQ_FZN/pll_fzn.qip
+E:/altera/13.1/lab/JSQ_FZN/pll_fzn.v
+E:/altera/13.1/lab/JSQ_FZN/pll_fzn_bb.v
+E:/altera/13.1/lab/JSQ_FZN/register.v
+E:/altera/13.1/lab/JSQ_FZN/switch.v
+e:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 26 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

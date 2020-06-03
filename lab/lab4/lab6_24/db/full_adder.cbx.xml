@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="full_adder">
+		<CBX_INST_ENTRY INSTANCE_NAME="|part4_add|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_9rh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

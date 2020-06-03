@@ -1,0 +1,31 @@
+Quartus II Archive log --	E:/altera/13.1/lab/lab3/lab3.qarlog
+
+Archive:	E:/altera/13.1/lab/lab3/lab3.qar
+Date:		Wed Nov 20 22:52:39 2019
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/lab3/PART4.v
+E:/altera/13.1/lab/lab3/PART5.v
+E:/altera/13.1/lab/lab3/db/lab3.cmp.hdb
+E:/altera/13.1/lab/lab3/db/lab3.db_info
+E:/altera/13.1/lab/lab3/hou.v
+E:/altera/13.1/lab/lab3/incremental_db/compiled_partitions/lab3.db_info
+E:/altera/13.1/lab/lab3/lab3.bdf
+E:/altera/13.1/lab/lab3/lab3.qpf
+E:/altera/13.1/lab/lab3/lab3.qsf
+E:/altera/13.1/lab/lab3/lab3_part2.v
+E:/altera/13.1/lab/lab3/lab3_part3.v
+E:/altera/13.1/lab/lab3/output_files/Waveform.vwf
+E:/altera/13.1/lab/lab3/output_files/Waveform1.vwf
+e:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Nov 20 22:52:55 2019
+Source archive file:	E:/altera/13.1/lab/lab3/lab3.qar
+Archive was extracted into	E:/altera/13.1/lab/lab3/lab3_restored/
+		 - successfully.

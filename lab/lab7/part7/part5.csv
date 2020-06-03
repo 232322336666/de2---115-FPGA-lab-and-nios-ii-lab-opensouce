@@ -1,0 +1,81 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# File: E:\altera\13.1\lab\lab5\part5_restored\part5.csv
+# Generated on: Sun Dec 01 23:18:42 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+KEY1,Input,PIN_M21,6,B6_N1,PIN_M21,,,,,
+KEY2,Input,PIN_N21,6,B6_N2,PIN_N21,,,,,
+clk,Input,PIN_Y2,2,B2_N0,PIN_Y2,,,,,
+hex0[6],Output,PIN_H22,6,B6_N0,PIN_H22,,,,,
+hex0[5],Output,PIN_J22,6,B6_N0,PIN_J22,,,,,
+hex0[4],Output,PIN_L25,6,B6_N1,PIN_L25,,,,,
+hex0[3],Output,PIN_L26,6,B6_N1,PIN_L26,,,,,
+hex0[2],Output,PIN_E17,7,B7_N2,PIN_E17,,,,,
+hex0[1],Output,PIN_F22,7,B7_N0,PIN_F22,,,,,
+hex0[0],Output,PIN_G18,7,B7_N2,PIN_G18,,,,,
+hex1[6],Output,PIN_U24,5,B5_N0,PIN_U24,,,,,
+hex1[5],Output,PIN_U23,5,B5_N1,PIN_U23,,,,,
+hex1[4],Output,PIN_W25,5,B5_N1,PIN_W25,,,,,
+hex1[3],Output,PIN_W22,5,B5_N0,PIN_W22,,,,,
+hex1[2],Output,PIN_W21,5,B5_N1,PIN_W21,,,,,
+hex1[1],Output,PIN_Y22,5,B5_N0,PIN_Y22,,,,,
+hex1[0],Output,PIN_M24,6,B6_N2,PIN_M24,,,,,
+hex2[6],Output,PIN_W28,5,B5_N1,PIN_W28,,,,,
+hex2[5],Output,PIN_W27,5,B5_N1,PIN_W27,,,,,
+hex2[4],Output,PIN_Y26,5,B5_N1,PIN_Y26,,,,,
+hex2[3],Output,PIN_W26,5,B5_N1,PIN_W26,,,,,
+hex2[2],Output,PIN_Y25,5,B5_N1,PIN_Y25,,,,,
+hex2[1],Output,PIN_AA26,5,B5_N1,PIN_AA26,,,,,
+hex2[0],Output,PIN_AA25,5,B5_N1,PIN_AA25,,,,,
+hex3[6],Output,PIN_Y19,4,B4_N0,PIN_Y19,,,,,
+hex3[5],Output,PIN_AF23,4,B4_N0,PIN_AF23,,,,,
+hex3[4],Output,PIN_AD24,4,B4_N0,PIN_AD24,,,,,
+hex3[3],Output,PIN_AA21,4,B4_N0,PIN_AA21,,,,,
+hex3[2],Output,PIN_AB20,4,B4_N0,PIN_AB20,,,,,
+hex3[1],Output,PIN_U21,5,B5_N0,PIN_U21,,,,,
+hex3[0],Output,PIN_V21,5,B5_N1,PIN_V21,,,,,
+hex4[6],Output,PIN_AE18,4,B4_N2,PIN_AE18,,,,,
+hex4[5],Output,PIN_AF19,4,B4_N1,PIN_AF19,,,,,
+hex4[4],Output,PIN_AE19,4,B4_N1,PIN_AE19,,,,,
+hex4[3],Output,PIN_AH21,4,B4_N2,PIN_AH21,,,,,
+hex4[2],Output,PIN_AG21,4,B4_N2,PIN_AG21,,,,,
+hex4[1],Output,PIN_AA19,4,B4_N0,PIN_AA19,,,,,
+hex4[0],Output,PIN_AB19,4,B4_N0,PIN_AB19,,,,,
+hex5[6],Output,PIN_AH18,4,B4_N2,PIN_AH18,,,,,
+hex5[5],Output,PIN_AF18,4,B4_N1,PIN_AF18,,,,,
+hex5[4],Output,PIN_AG19,4,B4_N2,PIN_AG19,,,,,
+hex5[3],Output,PIN_AH19,4,B4_N2,PIN_AH19,,,,,
+hex5[2],Output,PIN_AB18,4,B4_N0,PIN_AB18,,,,,
+hex5[1],Output,PIN_AC18,4,B4_N1,PIN_AC18,,,,,
+hex5[0],Output,PIN_AD18,4,B4_N1,PIN_AD18,,,,,
+hex6[6],Output,PIN_AC17,4,B4_N2,PIN_AC17,,,,,
+hex6[5],Output,PIN_AA15,4,B4_N2,PIN_AA15,,,,,
+hex6[4],Output,PIN_AB15,4,B4_N2,PIN_AB15,,,,,
+hex6[3],Output,PIN_AB17,4,B4_N1,PIN_AB17,,,,,
+hex6[2],Output,PIN_AA16,4,B4_N2,PIN_AA16,,,,,
+hex6[1],Output,PIN_AB16,4,B4_N2,PIN_AB16,,,,,
+hex6[0],Output,PIN_AA17,4,B4_N1,PIN_AA17,,,,,
+hex7[6],Output,PIN_AA14,3,B3_N0,PIN_AA14,,,,,
+hex7[5],Output,PIN_AG18,4,B4_N2,PIN_AG18,,,,,
+hex7[4],Output,PIN_AF17,4,B4_N2,PIN_AF17,,,,,
+hex7[3],Output,PIN_AH17,4,B4_N2,PIN_AH17,,,,,
+hex7[2],Output,PIN_AG17,4,B4_N2,PIN_AG17,,,,,
+hex7[1],Output,PIN_AE17,4,B4_N2,PIN_AE17,,,,,
+hex7[0],Output,PIN_AD17,4,B4_N2,PIN_AD17,,,,,
+reset,Input,PIN_AB28,5,B5_N1,PIN_AB28,,,,,

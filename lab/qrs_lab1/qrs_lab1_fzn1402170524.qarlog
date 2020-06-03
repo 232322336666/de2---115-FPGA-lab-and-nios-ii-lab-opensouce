@@ -1,0 +1,73 @@
+Quartus II Archive log --	E:/altera/13.1/lab/qrs_lab1/qrs_lab1_fzn1402170524.qarlog
+
+Archive:	E:/altera/13.1/lab/qrs_lab1/qrs_lab1_fzn1402170524.qar
+Date:		Fri Mar 06 15:27:30 2020
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/altera/13.1/lab/qrs_lab1/db/lab1.cmp.hdb
+E:/altera/13.1/lab/qrs_lab1/db/lab1.db_info
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/lab1.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_avalon_sc_fifo.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_avalon_st_pipeline_base.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_arbitrator.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_master_agent.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_master_translator.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_reorder_memory.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_slave_agent.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_slave_translator.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_merlin_traffic_limiter.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_reset_controller.sdc
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_reset_controller.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/altera_reset_synchronizer.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_irq_mapper.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_jtag_uart_0.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_addr_router.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_addr_router_001.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_cmd_xbar_demux.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_cmd_xbar_demux_001.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_cmd_xbar_mux.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_cmd_xbar_mux_003.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_id_router.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_id_router_003.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_rsp_xbar_demux.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_rsp_xbar_demux_003.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_rsp_xbar_mux.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_mm_interconnect_0_rsp_xbar_mux_001.sv
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0.ocp
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0.sdc
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_bht_ram.mif
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_dc_tag_ram.mif
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_ic_tag_ram.mif
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_jtag_debug_module_sysclk.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_jtag_debug_module_tck.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_jtag_debug_module_wrapper.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_mult_cell.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_oci_test_bench.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_ociram_default_contents.mif
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_rf_ram_a.mif
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_rf_ram_b.mif
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_nios2_qsys_0_test_bench.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_onchip_memory2_ram.hex
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_onchip_memory2_ram.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_onchip_memory2_rom.hex
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_onchip_memory2_rom.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/submodules/system_qsys_sysid_qsys_0.v
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/system_qsys.debuginfo
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/system_qsys.qip
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/system_qsys.regmap
+E:/altera/13.1/lab/qrs_lab1/hardware/hardware/synthesis/system_qsys.v
+E:/altera/13.1/lab/qrs_lab1/hardware/system_qsys.cmp
+E:/altera/13.1/lab/qrs_lab1/hardware/system_qsys.qsys
+E:/altera/13.1/lab/qrs_lab1/hardware/system_qsys.sopcinfo
+E:/altera/13.1/lab/qrs_lab1/incremental_db/compiled_partitions/lab1.db_info
+E:/altera/13.1/lab/qrs_lab1/lab1.qpf
+E:/altera/13.1/lab/qrs_lab1/lab1.qsf
+e:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 62 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

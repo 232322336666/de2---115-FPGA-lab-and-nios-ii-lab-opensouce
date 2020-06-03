@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/hp/Quartus/shiyan3/lab3part4/d_latch.v
+source_file = 1, C:/Users/hp/Quartus/shiyan3/lab3part4/d_latch2.v
+source_file = 1, C:/Users/hp/Quartus/shiyan3/lab3part4/Waveform.vwf
+source_file = 1, C:/Users/hp/Quartus/shiyan3/lab3part4/db/part4.cbx.xml
+design_name = part4
+instance = comp, \Q1~output\, Q1~output, part4, 1
+instance = comp, \Q2~output\, Q2~output, part4, 1
+instance = comp, \Q3~output\, Q3~output, part4, 1
+instance = comp, \clk~input\, clk~input, part4, 1
+instance = comp, \D~input\, D~input, part4, 1
+instance = comp, \comb_3|q~feeder\, comb_3|q~feeder, part4, 1
+instance = comp, \comb_3|q\, comb_3|q, part4, 1

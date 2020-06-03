@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="JSQ_FZN">
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSQ_FZN_top|calculate:u1|operator:m4|myadd:m2|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_79i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSQ_FZN_top|calculate:u1|operator:m4|mydivi:m5|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_uos.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSQ_FZN_top|calculate:u1|operator:m4|myadd:m1|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_79i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSQ_FZN_top|calculate:u1|operator:m4|myadd:m3|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_79i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|JSQ_FZN_top|calculate:u1|operator:m4|mymult:m4|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_kfn.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

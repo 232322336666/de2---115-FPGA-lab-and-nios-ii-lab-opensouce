@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab4">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab4|PART9:inst|myaltmultadd:M1|altmult_add:ALTMULT_ADD_component" CBX_FILE_NAME="mult_add_mcv2.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
